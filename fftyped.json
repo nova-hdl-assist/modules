@@ -1,6 +1,6 @@
 {
 	"fieldsNumbers" : "5",
 	"moduleName" : "Flip-Flop Type D",
-	"moduleCode" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\n-- Uncomment the following library declaration if using\n-- arithmetic functions with Signed or Unsigned values\n--use IEEE.NUMERIC_STD.ALL;\n\n-- Uncomment the following library declaration if instantiating\n-- any Xilinx leaf cells in this code.\n--library UNISIM;\n--use UNISIM.VComponents.all;\n\nentity <NAME>_D_flipflop is\n	Port ( D : in STD_LOGIC;\n		clk : in STD_LOGIC;\n		Q : out STD_LOGIC);\n	end <NAME>_D_flipflop; \n\narchitecture Behavioral of risingEdge_D_flipflop is\n\nbegin\n	process(clk)\n	begin \n		if(rising_edge(clk)) then\n			Q <= D;\n		end if;\n	end process;  \nend Behavioral;"
+	"moduleCode" : "library IEEE\;\nuse IEEE.STD_LOGIC_1164.ALL\;\n\n-- Uncomment the following library declaration if using\n-- arithmetic functions with Signed or Unsigned values\n--use IEEE.NUMERIC_STD.ALL\;\n\n-- Uncomment the following library declaration if instantiating\n-- any Xilinx leaf cells in this code.\n--library UNISIM;\n--use UNISIM.VComponents.all\;\n\nentity <NAME>_D_flipflop is\n	Port ( D \: in STD_LOGIC;\n		clk \: in STD_LOGIC;\n		Q \: out STD_LOGIC);\n	end <NAME>_D_flipflop\; \n\narchitecture Behavioral of risingEdge_D_flipflop is\n\nbegin\n	process(clk)\n	begin \n		if(rising_edge(clk)) then\n			Q <= D\;\n		end if\;\n	end process\;  \nend Behavioral\;"
 	
 }
