@@ -1,6 +1,6 @@
 {
 	"fieldsNumbers" : "5",
 	"moduleName" : "Flip-Flo;p Type D",
-	"moduleCode" : "library IEEE;"
+	"moduleCode" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\nentity risingEdge_D_flipflop is\n\tPort ( D : in STD_LOGIC;\n\tclk : in STD_LOGIC;\n\tQ : out STD_LOGIC);\nend risingEdge_D_flipflop;\n\narchitecture Behavioral of risingEdge_D_flipflop is\n\nbegin\n\tprocess(clk)\n\tbegin\n\t\tif(rising_edge(clk)) then\n\t\t\tQ <= D;\n\t\tend if;\n\tend process;\nend Behavioral;"
 	
 }
