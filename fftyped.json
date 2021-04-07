@@ -1,10 +1,6 @@
 {
 	"fieldsNumbers" : "5",
-	"moduleName" : "Flip-Flop Type D",
-	"modulePart1" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n-- Uncomment the following library declaration if using\n-- arithmetic functions with Signed or Unsigned values\n--use IEEE.NUMERIC_STD.ALL;\n-- Uncomment the following library declaration if instantiating\n-- any Xilinx leaf cells in this code.\n--library UNISIM;\n--use UNISIM.VComponents.all;\n\nentity ",
-	"modulePart2" : "_D_flipflop is\n	Port ( D : in STD_LOGIC;\n		Clock : in STD_LOGIC;\n		--\n		Q_Signal : out STD_LOGIC);\n	end",
-	"modulePart3" :"_D_flipflop;\narchitecture Behavioral of "
-
+	"moduleName" : "Flip-Flop Type D"
 
 	
 }
