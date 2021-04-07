@@ -1,47 +1,9 @@
 {
-	
+	"fieldsNumbers" : "5",
 	"moduleName" : "Flip-Flop Type D",
-	"homeTown" : "Metro City",
-
-  "squadName" : "Super Hero Squad",
-  "homeTown" : "Metro City",
-  "formed" : 2016,
-  "secretBase" : "Super tower",
-  "active" : true,
-  "members" : [
-    {
-      "name" : "Molecule Man",
-      "age" : 29,
-      "secretIdentity" : "Dan Jukes",
-      "powers" : [
-        "Radiation resistance",
-        "Turning tiny",
-        "Radiation blast"
-      ]
-    },
-    {
-      "name" : "Madame Uppercut",
-      "age" : 39,
-      "secretIdentity" : "Jane Wilson",
-      "powers" : [
-        "Million tonne punch",
-        "Damage resistance",
-        "Superhuman reflexes"
-      ]
-    },
-    {
-      "name" : "Eternal Flame",
-      "age" : 1000000,
-      "secretIdentity" : "Unknown",
-      "powers" : [
-        "Immortality",
-        "Heat Immunity",
-        "Inferno",
-        "Teleportation",
-        "Interdimensional travel"
-      ]
-    }
-  ]
+	"modulePart1" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n-- Uncomment the following library declaration if using\n-- arithmetic functions with Signed or Unsigned values\n--use IEEE.NUMERIC_STD.ALL;\n-- Uncomment the following library declaration if instantiating\n-- any Xilinx leaf cells in this code.\n--library UNISIM;\n--use UNISIM.VComponents.all;\n\nentity ",
+	"modulePart2" : "_D_flipflop is\nPort ( D : in STD_LOGIC;\nClock : in STD_LOGIC;\n--\nQ_Signal : out STD_LOGIC);\nend",
+	"modulePart3" :"_D_flipflop;\narchitecture Behavioral of `+naa.value+`_D_flipflop is\n\nbegin\n    D_flipflop: process(Clock)\n    begin \n        if(<Tipo_Edge>(Clock)) then\n            Q_Signal <= D; \n        end if;       \n    end process;  \n\nend Behavioral;"
 
 
 	
