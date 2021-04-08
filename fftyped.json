@@ -1,5 +1,6 @@
 {
-	"fieldsNumbers" : "5",
+	"buttons" : ["<NAME>"],
+	"selects" : ["<EDGE_TYPE>"],
 	"moduleName" : "Flip-Flop Type D",
 	"moduleCode" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME>_D_flipflop is\n\tPort ( D : in STD_LOGIC;\n\tclk : in STD_LOGIC;\n\tQ : out STD_LOGIC);\nend <NAME>_D_flipflop;\n\narchitecture Behavioral of <NAME>_D_flipflop is\n\nbegin\n\tprocess(clk)\n\tbegin\n\t\tif(<EDGE_TYPE>(clk)) then\n\t\t\tQ <= D;\n\t\tend if;\n\tend process;\nend Behavioral;"
 	
