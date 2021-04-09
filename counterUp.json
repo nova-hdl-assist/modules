@@ -5,6 +5,6 @@
     		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] }
 	],
 	"moduleName" : "Contador UP Síncrono",
-	"moduleCode" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME>_Up_Counter is\n\tPort ( Clock : in STD_LOGIC;\n\tReset : in STD_LOGIC;\n\t<OUTPUT> : out STD_LOGIC_VECTOR (<NUMBER_OF_BITS> downto 0);\nend <NAME>_Up_Counter;\n\narchitecture Behavioral of <NAME>_Up_Counter is\n\tsignal temp_signal : STD_LOGIC_VECTOR(<NUMBER_OF_BITS> downto 0);\nbegin\n\t<NAME>_Sync_Up_Counter: process (Clock, Reset)\n\tbegin\n\t\tif(Reset = '1') then\n\t\t\ttemp_signal <= (others => '0');\n\t\telsif (<Tipo de Edge>(Clock)) then\n\t\t\ttemp_signal <= STD_LOGIC_VECTOR(unsigned(temp_signal) + 1);\n\t\tend if;\n\tend process;\n\t<OUTPUT> <= temp_signal;\nend Behavioral;"
+	"moduleCode" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME>_Up_Counter is\n\tPort ( Clock : in STD_LOGIC;\n\tReset : in STD_LOGIC;\n\t<OUTPUT> : out STD_LOGIC_VECTOR (<NUMBER_OF_BITS> downto 0);\nend <NAME>_Up_Counter;\n\narchitecture Behavioral of <NAME>_Up_Counter is\n\tsignal temp_signal : STD_LOGIC_VECTOR(<NUMBER_OF_BITS> downto 0);\nbegin\n\t<NAME>_Sync_Up_Counter: process (Clock, Reset)\n\tbegin\n\t\tif(Reset = '1') then\n\t\t\ttemp_signal <= (others => '0');\n\t\telsif (<EDGE_TYPE>(Clock)) then\n\t\t\ttemp_signal <= STD_LOGIC_VECTOR(unsigned(temp_signal) + 1);\n\t\tend if;\n\tend process;\n\t<OUTPUT> <= temp_signal;\nend Behavioral;"
 	
 }
