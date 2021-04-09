@@ -1,5 +1,5 @@
 {
-	"inputtext" : ["<NAME>"],
+	"inputtext" : ["<NAME>", "<OUTPUT>", "<NUMBER_OF_BITS>"],
 	"selects" : 
 	[
     		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] }
