@@ -4,7 +4,7 @@
 	[
     		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] }
 	],
-	"moduleName" : "Flip-Flop Type D",
+	"moduleName" : "Flip-Flop Type SR",
 	"moduleCode" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME>_SR_flipflop is\n\tPort ( Set : in STD_LOGIC;\n\tReset : in STD_LOGIC;\n\tclk : in STD_LOGIC;\n\tQ_Signal : out STD_LOGIC);\nend <NAME>_SR_flipflop;\n\narchitecture Behavioral of <NAME>_SR_flipflop is\n\nbegin\n\tSR_flipflop: process(clk)\n\tbegin\n\t\tif(<EDGE_TYPE>(clk)) then\n\t\t\tif(Set='0' and Reset='0')then\n\n\t\t\telsif(Set='1' and Reset='1')then\n\t\t\t\tQ<='Z';\n\t\t\telsif(Set='0' and Reset='1')then\n\t\t\t\tQ<='0';\n\t\t\telse\n\t\t\t\tQ<='1';\n\t\t\tend if;\n\t\tend if;\n\tend process; \nend Behavioral;"
 	
 }
