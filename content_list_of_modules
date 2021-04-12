@@ -1,6 +1,7 @@
 {
   "content_list" : [
           { "name" : "Flip-Flop Type D", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/fftyped.json"},
-          { "name" :"Up Counter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/counterUp.json" }
+          { "name" :"Up Counter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/counterUp.json" },
+          { "name" :"Flip-Flop Type SR", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/fftypesr"}
    ]
  }
