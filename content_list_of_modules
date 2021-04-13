@@ -7,7 +7,7 @@
           { "name" :"Up Counter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/counterUp.json" },
           { "name" :"Down Counter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/counterDown.json" },
           { "name" :"Up & Down Counter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/counterUp&Down.json" },         
-          { "name" :"SIPO Shift Register", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/SIPOshiftregister.json"}
-          
+          { "name" :"SIPO Shift Register", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/SIPOshiftregister.json"},
+          { "name" :"SISO Shift Register", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/SISOshiftregister.json"}    
    ]
  }
