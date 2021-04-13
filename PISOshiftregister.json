@@ -3,7 +3,7 @@
 	"selects" : 
 	[
     		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] },
-        	{ "name" : "<RESET_TYPE>", "options" : [ "rising_edge", "falling_edge"] }
+        	{ "name" : "<RESET_TYPE>", "options" : [ "Synchronous", "Assynchronous"] }
 	],
 	"autogenerate" : "Q_signal(<NUMBER_OF_BITS>) <= <INPUT>(<NUMBER_OF_BITS>);",
 	"moduleName" : "PISO Shift Register",
