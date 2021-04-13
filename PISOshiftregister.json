@@ -1,0 +1,46 @@
+{
+	"inputtext" : ["<NAME>", "<CLOCK>", "<RESET>", "<INPUT>", "<OUTPUT>", "<NUMBER_OF_BITS>"],
+	"selects" : 
+	[
+    		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] },
+        { "name" : "<RESET_TYPE>", "options" : [ "rising_edge", "falling_edge"] }
+	],
+	"moduleName" : "Contador DOWN Síncrono",
+	"moduleCode" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME>_SIPO_Shift_Register is\n\tPort ( <CLOCK> : in STD_LOGIC;\n\t<RESET> : in STD_LOGIC;\n\t<NAME> : in STD_LOGIC_VECTOR (<NUMBER_OF_BITS> downto 0);\n\t--\n\t<OUTPUT> : out STD_LOGIC_VECTOR (<NUMBER_OF_BITS> downto 0));\nend <NAME>_SIPO_Shift_Register;\n\narchitecture Behavioral of <NAME>_SIPO_Shift_Register is \n\nsignal Q: STD_LOGIC_VECTOR(<NUMBER_OF_BITS> downto 0);\n\nbegin\n\n\tPISO_REGISTER: process(<CLOCK>)\n\tbegin
+PISO_REGISTER: process(<CLOCK>)
+begin
+    if <Tipo_Edge>(<CLOCK>) then
+        if <RESET> = '1' then
+            Q_signal <= (others => '0');
+        else
+            if LOAD = '1' then
+                Q_signal((<NUMBER_OF_BITS_MINUS_1>) downto (<MIDDLE_BIT_PLUS_1>)) <= Q_signal((<MIDDLE_BIT>) downto 0);
+            else
+                Q_signal(<NUMBER_OF_BITS>) <= <INPUT>(<NUMBER_OF_BITS>);
+                Q_signal(<NUMBER_OF_BITS_MINUS_1>) <= <INPUT>(<NUMBER_OF_BITS_MINUS_1>);
+                -- Continua de acordo com o número de bits
+                -- inserido. Autogerado
+                Q_signal(1) <= <Variável de Entrada>(1);
+            end if;
+            Q_signal(0) <= <Variável de Entrada>(0);
+        end if;
+    end if;
+end process;
+
+<Variável de Saída> <= Q_signal(<Número
+do Bit mais significativo>);
+  
+end Behavioral;",
+  "moduleCode2" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME>_SIPO_Shift_Register is\n\tPort ( <CLOCK> : in STD_LOGIC;\n\t<RESET> : in STD_LOGIC;\n\t<NAME> : in STD_LOGIC;\n\t--\n\t<OUTPUT> : out STD_LOGIC_VECTOR (<NUMBER_OF_BITS> downto 0));\nend <NAME>_SIPO_Shift_Register;\n\narchitecture Behavioral of <NAME>_SIPO_Shift_Register is \n\nsignal Q: STD_LOGIC_VECTOR(<NUMBER_OF_BITS> downto 0);\n\nbegin\n\n\tSIPO_REGISTER: process(<CLOCK>)\n\tbegin
+    if <RESET_TYPE>(<CLOCK>) then
+        if <RESET> = '1' then
+            Q_signal <= (others => '0');
+        else
+            Q_signal((<NUMBER_OF_BITS>) downto (<MIDDLE_BIT>)) <= Q_signal((<MIDDLE_BIT>) downto 0);           
+            Q_signal(0) <= <Variável 
+            de Entrada>;
+        end if;
+    end if;
+end process;
+  
+end Behavioral;"
