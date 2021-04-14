@@ -1,0 +1,6 @@
+{
+	"inputtext" : ["<NAME>", "<INPUT>", "<OUTPUT>", "<SELECT>", "<NUMBER_OF_BITS>", "<SELECT_NUMBER_OF_BITS>"],
+  "autogenerate" : "\n\t\t\twhen <SELECT_NUMBER_OF_BITS_BINARY> => <OUTPUT>(<NUMBER_OF_BITS>) <= <INPUT>;",
+	"moduleName" : "Multiplexer",
+	"moduleCode" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( <INPUT> : in STD_LOGIC;\n\t<SELECT> : in STD_LOGIC_VECTOR (<SELECT_NUMBER_OF_BITS> downto 0);\n\t--\n\t<OUTPUT> : out STD_LOGIC_VECTOR (<NUMBER_OF_BITS> downto 0));\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\nbegin\n\n\tMULTIPLEXER_PROCESS: process(<SELECT>, <INPUT>)\n\tbegin\n\t\tcase <SELECT> is\n\t\t\twhen <SELECT_NUMBER_OF_BITS_BINARY> => <OUTPUT>(<NUMBER_OF_BITS>) <= <INPUT>;\n\t\t\t<AUTO_GENERATE>\n\t\t\twhen <SELECT_NUMBER_OF_BITS_BINARY> => <OUTPUT>(0) <= <INPUT>;\n\t\t\twhen others => <OUTPUT> <= "X";\n\t\tend case;\n\tend process;\n\nend Behavioral;"
+}
