@@ -1,5 +1,5 @@
 {
 	"inputtext" : ["<NAME>", "<INPUT1>", "<INPUT2>","<OUTPUT>"],
-  "modulename" : "High Level Adder and/or Subtractor",
-	"modulecode" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( <INPUT1> : in INTEGER;\n\t<INPUT2> : in INTEGER;\n\t--\n\t<OUTPUT> : out INTEGER);\nend adder_highlvl;\narchitecture Behavioral of <NAME> is\n\nbegin\n\t\n<OUTPUT> <= <INPUT1> + <INPUT2>;\n\nend Behavioral;"
+  	"moduleName" : "High Level Adder and/or Subtractor",
+	"moduleCode" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( <INPUT1> : in INTEGER;\n\t<INPUT2> : in INTEGER;\n\t--\n\t<OUTPUT> : out INTEGER);\nend adder_highlvl;\narchitecture Behavioral of <NAME> is\n\nbegin\n\t\n<OUTPUT> <= <INPUT1> + <INPUT2>;\n\nend Behavioral;"
 }
