@@ -1,0 +1,5 @@
+{
+	"inputtext" : ["<NAME>", "<INPUT_BIT1>", "<INPUT_BIT2>", "<DIFFERENCE_BIT>", "<BORROW_BIT>"],
+	"moduleName" : "1-Bit Half Subtractor",
+	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- 1-Bit Half Subtractor (Adapted from: https://buzztech.in/vhdl-code-half-adder-structural-behavioral-dataflow/)\n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( <INPUT_BIT1> : in STD_LOGIC;\n\t<INPUT_BIT2> : in STD_LOGIC;\n\t--\n\t<DIFFERENCE_BIT> : out STD_LOGIC;\n\t<BORROW_BIT> : out STD_LOGIC);\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\nbegin\n\n\t<NAME>_PROC: process(<INPUT_BIT1>, <INPUT_BIT2>)\n\tbegin\n\t\tif <INPUT_BIT1> = '1' then\n\t\t\t<DIFFERENCE_BIT> <= not <INPUT_BIT2>;\n\t\t\t<BORROW_BIT> <= '0';\n\t\telse\n\t\t\tif <INPUT_BIT2> = '1' then\n\t\t\t\t<DIFFERENCE_BIT> <= '1';\n\t\t\t\t<BORROW_BIT> <= '1';\n\t\t\telse\n\t\t\t\t<DIFFERENCE_BIT> <= '0';\n\t\t\t\t<BORROW_BIT> <= '0';\n\t\t\tend if;\n\t\tend if;\n\tend process;\n\nend Behavioral;"
+}
