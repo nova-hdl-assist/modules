@@ -1,5 +1,11 @@
 {
-	"inputtext" : ["<NAME>", "<INPUT_BIT1>", "<INPUT_BIT2>", "<INPUT_CARRY_BIT>", "<CARRY_BIT>", "<SUM_BIT>"],
-	"moduleName" : "1-bit Full Adder",
-	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- State Machine \n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( <INPUT_BIT1> : in STD_LOGIC;\n\t<INPUT_BIT2> : in STD_LOGIC;\n\t--\n\t<CARRY_BIT> : out STD_LOGIC;\n\t<SUM_BIT> : out STD_LOGIC);\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\nbegin\n\n\tFULL_ADDER_PROC: process(<INPUT_BIT1>, <INPUT_BIT2>, <INPUT_CARRY_BIT>)\n\tbegin\n\t\tif <INPUT_BIT1> = '0' then\n\t\t\tif <INPUT_BIT2> = '1' and <INPUT_CARRY_BIT> = '1' then\n\t\t\t\t<SUM_BIT> <= '0';\n\t\t\t\t<CARRY_BIT> <= '1';\n\t\t\telse\n\t\t\t\tif <INPUT_BIT2> = '0' and <INPUT_CARRY_BIT> = '0' then\n\t\t\t\t\t<SUM_BIT> <= '0';\n\t\t\t\telse\n\t\t\t\t\t<SUM_BIT> <= '1';\n\t\t\t\tend if;\n\t\t\t\t<CARRY_BIT> <= '0';\n\t\t\tend if;\n\t\telse\n\t\t\tif <INPUT_BIT2> = '1' or <INPUT_CARRY_BIT> = '1' then\n\t\t\t\t<CARRY_BIT> <= '1';\n\t\t\telse\n\t\t\t<CARRY_BIT> <= '0';\n\t\tend if;\n\t\tif (<INPUT_BIT2> = '1' and <INPUT_CARRY_BIT> = '1') or (<INPUT_BIT2> = '0' and <INPUT_CARRY_BIT> = '0') then\n\t\t\t<SUM_BIT> <= '1';\n\t\telse\n\t\t\t<SUM_BIT> <= '0';\n\t\tend if;\n\tend if;\n\tend process;\n\nend Behavioral;"
+	"inputtext" : ["<NAME>", "<INPUT>", "<OUTPUT>", "<RESET_STATE_NAME>", "<NUMBER_OF_STATES>"],
+	"selects" : 
+	[
+    		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] },
+        	{ "name" : "<RESET_TYPE>", "options" : [ "Synchronous", "Asynchronous"] }
+	],
+	"autogenerate" : "when s_0=>\n\tprocedure();",
+	"moduleName" : "State Machine",
+	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- State Machine \n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( <INPUT>: in STD_LOGIC;\n\treset: in STD_LOGIC;\n\tclock: in STD_LOGIC;\n\t--\n\t<OUTPUT>: in STD_LOGIC);\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\ttype state_type is ( <NUMBER_OF_STATES>);\n\tsignal current_state, next_state: state_type;\n\t<AUTO_GENERATE_PROCEDURES>\n\nbegin\n\n\tCLOCK_PROCESS_SYNC: process(clock)\n\tbegin\n\t\tif <EDGE_TYPE>(clock) then\n\t\t\tif reset = '1' then\n\t\t\t\tcurrent_state <= <RESET_STATE_NAME>;\n\t\t\telse\n\t\t\t\tcurrent_state <= next_state;\n\t\t\tend if;\n\t\tend if;\n\tend process;\n\n\tNEXT_STATE_PROCESS: process (current_state, input)\n\tbegin\n\t\tnext_state<=current_state;\n\t\tcase current_state is\n\t\t\t<AUTO_GENERATE>\n\t\tend case;\n\tend process;\n\n\tOUTPUT_PROCESS: process( )\n\tbegin\n\n\t\t-- <OUTPUT><='0';\n\n\t\t-- <OUTPUT><='1';\n\n\tend process;\nend Behavioral;"
 }
