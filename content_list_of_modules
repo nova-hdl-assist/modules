@@ -11,9 +11,14 @@
           { "name" : "SISO Shift Register", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/SISOshiftregister.json"},
           { "name" : "PISO Shift Register", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/PISOshiftregister.json"},
           { "name" : "PIPO Shift Register", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/PIPOshiftregister.json"},
-          { "name" : "High Level Adder and/or Subtractor", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/highleveladdersubtractor.json"},
           { "name" : "Multiplexer", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/multiplexer.json"},
-          { "name" : "Demultiplexer", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/demultiplexer.json"}
+          { "name" : "Demultiplexer", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/demultiplexer.json"},
+          { "name" : "1-Bit Half Adder", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/1-bithalfadder.json"},
+          { "name" : "1-Bit Full Adder", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/1-bitfulladder.json"},
+          { "name" : "1-Bit Half Subtractor", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/1-bithalfsubtractor.json"},
+          { "name" : "1-Bit Full Subtractor", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/1-bitfullsubtractor.json"},
+          { "name" : "High Level Adder and/or Subtractor", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/highleveladdersubtractor.json"},
+          { "name" : "State Machine", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/statemachine.json"}
                   
    ]
  }
