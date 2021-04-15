@@ -5,5 +5,5 @@
     		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] }
 	],
 	"moduleName" : "Flip-Flop Type T",
-	"moduleCode" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME>_T_flipflop is\n\tPort ( T : in STD_LOGIC;\n\tclk : in STD_LOGIC;\n\tQ_Signal : out STD_LOGIC);\nend <NAME>_T_flipflop;\n\narchitecture Behavioral of <NAME>_T_flipflop is\n\nbegin\n\tT_flipflop: process (clk)\n\t\tvariable temp_sig: STD_LOGIC := '0';\n\tbegin\n\t\tif <EDGE_TYPE>(clk) then\n\t\t\tif T='0' then\n\t\t\t\ttemp_sig := temp_sig;\n\t\t\telsif T='1' then\n\t\t\t\ttemp_sig := not (temp_sig);\n\t\t\tend if;\n\t\tend if;\n\t\tQ_Signal <= temp_sig;\n\tend process;\nend Behavioral; "	
+	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Flip-Flop Type T (Adapted from: NÃO ESQUECER!!!!)\n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( T : in STD_LOGIC;\n\tclk : in STD_LOGIC;\n\tQ_Signal : out STD_LOGIC);\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\nbegin\n\tT_flipflop: process (clk)\n\t\tvariable temp_sig: STD_LOGIC := '0';\n\tbegin\n\t\tif <EDGE_TYPE>(clk) then\n\t\t\tif T='0' then\n\t\t\t\ttemp_sig := temp_sig;\n\t\t\telsif T='1' then\n\t\t\t\ttemp_sig := not (temp_sig);\n\t\t\tend if;\n\t\tend if;\n\t\tQ_Signal <= temp_sig;\n\tend process;\nend Behavioral; "	
 }
