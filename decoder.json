@@ -1,0 +1,7 @@
+{
+	  "inputtext" : ["<NAME>", "<INPUT>", "<OUTPUT>", "<NUMBER_OF_BITS>"],
+  	"autogenerate" : "\n\t\t\twhen \"<SELECT_NUMBER_OF_BITS_BINARY>\" => <OUTPUT> <= \"<NUMBER_OF_BITS_BINARY>\";",
+	  "moduleName" : "Decoder",
+	  "moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- DEMUX (Adapted from: https://allaboutfpga.com/vhdl-code-for-2-to-4-decoder/)\n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( <INPUT> : in STD_LOGIC_VECTOR (<SELECT_NUMBER_OF_BITS> downto 0);\n\t<OUTPUT> : out STD_LOGIC_VECTOR (<NUMBER_OF_BITS> downto 0));\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\nbegin\n\n\t<NAME>_DECODER_PROC: process(<INPUT>)\n\tbegin\n\t\tcase <INPUT> is \n\t\t\twhen \"<SELECT_NUMBER_OF_BITS_BINARY>\" => <OUTPUT> <= \"<NUMBER_OF_BITS_BINARY>\";\n\t\t\t<AUTO_GENERATE>\n\t\t\twhen others => <OUTPUT> <= \"ZZ\";\n\t\tend case;\n\tend process;\n\nend Behavioral;"
+
+}
