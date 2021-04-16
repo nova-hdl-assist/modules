@@ -6,7 +6,7 @@
         	{ "name" : "<RESET_TYPE>", "options" : [ "Synchronous", "Asynchronous"] }
 	],
 	"autogenerate" : "\n\t\t\twhen s_<NUMBER_OF_STATES>=>\n\t\t\t\tmaq_procedure_s<NUMBER_OF_STATES>();",
-	"autogeneratestates" : " s_<NUMBER_OF_STATES>"
+	"autogeneratestates" : " s_<NUMBER_OF_STATES>",
 	"autogenerateprocedures" : "\n\tprocedure maq_procedure_s<NUMBER_OF_STATES> () is \n\tbegin \n\t\t--ToDo\n\tend maq_procedure_s<NUMBER_OF_STATES>",
 	"moduleName" : "State Machine",
 	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- State Machine \n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( <INPUT>: in STD_LOGIC;\n\treset: in STD_LOGIC;\n\tclock: in STD_LOGIC;\n\t--\n\t<OUTPUT>: in STD_LOGIC);\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\ttype state_type is ( <NUMBER_OF_STATES>);\n\tsignal current_state, next_state: state_type;\n\t<AUTO_GENERATE_PROCEDURES>\n\nbegin\n\n\tCLOCK_PROCESS_SYNC: process(clock)\n\tbegin\n\t\tif <EDGE_TYPE>(clock) then\n\t\t\tif reset = '1' then\n\t\t\t\tcurrent_state <= <RESET_STATE_NAME>;\n\t\t\telse\n\t\t\t\tcurrent_state <= next_state;\n\t\t\tend if;\n\t\tend if;\n\tend process;\n\n\tNEXT_STATE_PROCESS: process (current_state, input)\n\tbegin\n\t\tnext_state<=current_state;\n\t\tcase current_state is\n\t\t\t<AUTO_GENERATE>\n\t\tend case;\n\tend process;\n\n\tOUTPUT_PROCESS: process( )\n\tbegin\n\n\t\t-- <OUTPUT><='0';\n\n\t\t-- <OUTPUT><='1';\n\n\tend process;\nend Behavioral;",
