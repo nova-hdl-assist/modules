@@ -1,9 +1,10 @@
 {
-	"inputtext" : ["<NAME>", "<INPUT>", "<OUTPUT>", "<RESET_STATE_NAME>", "<NUMBER_OF_STATES>"],
+	"inputtext" : ["<NAME>", "<INPUT>", "<OUTPUT>", "<NUMBER_OF_STATES>"],
 	"selects" : 
 	[
     		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] },
-        	{ "name" : "<RESET_TYPE>", "options" : [ "Synchronous", "Asynchronous"] }
+        	{ "name" : "<RESET_TYPE>", "options" : [ "Synchronous", "Asynchronous"] },
+		{ "name" : "<RESET_STATE_NAME>", "options" : []},
 	],
 	"autogenerate" : "\n\t\t\twhen s_<NUMBER_OF_STATES>=>\n\t\t\t\tmaq_procedure_s<NUMBER_OF_STATES>();",
 	"autogeneratestates" : " s_<NUMBER_OF_STATES>",
