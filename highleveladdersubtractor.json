@@ -1,5 +1,5 @@
 {
 	"inputtext" : ["<NAME>", "<INPUT1>", "<INPUT2>","<OUTPUT>"],
   	"moduleName" : "High Level Adder and/or Subtractor",
-	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- High Level Adder and/or Subtractor (Adapted from: NÃO ESQUECER!!!!)\n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( <INPUT1> : in INTEGER;\n\t<INPUT2> : in INTEGER;\n\t--\n\t<OUTPUT> : out INTEGER);\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\nbegin\n\n\t<OUTPUT> <= <INPUT1> + <INPUT2>;\n\nend Behavioral;"
+	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- High Level Adder and/or Subtractor\n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( <INPUT1> : in INTEGER;\n\t<INPUT2> : in INTEGER;\n\t--\n\t<OUTPUT> : out INTEGER);\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\nbegin\n\n\t<OUTPUT> <= <INPUT1> + <INPUT2>;\n\nend Behavioral;"
 }
