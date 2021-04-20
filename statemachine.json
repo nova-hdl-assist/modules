@@ -6,7 +6,7 @@
         	{ "name" : "<RESET_TYPE>", "options" : [ "Synchronous", "Asynchronous"] },
 		{ "name" : "<RESET_STATE_NAME>", "options" : []}
 	],
-	"autogenerate" : "\n\t\t\twhen s_<NUMBER_OF_STATES>=>\n\t\t\t\tmaq_procedure_s<NUMBER_OF_STATES>();",
+	"autogenerate" : "\n\t\t\twhen s_<NUMBER_OF_STATES>=>\n\t\t\t\tmaq_procedure_s<NUMBER_OF_STATES>(current_state, next_state);",
 	"autogeneratestates" : " s_<NUMBER_OF_STATES>",
 	"autogenerateprocedures" : "\n\n\tprocedure maq_procedure_s<NUMBER_OF_STATES> (current_state, next_state) is \n\tbegin \n\t\t--ToDo\n\tend maq_procedure_s<NUMBER_OF_STATES>",
 	"moduleName" : "State Machine",
