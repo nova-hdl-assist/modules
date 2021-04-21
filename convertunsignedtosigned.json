@@ -1,0 +1,8 @@
+{
+	"inputtext" : ["<INPUT>", "<NUMBER_OF_BITS>"],
+	"selects" : 
+	[
+	],
+	"moduleName" : "Convert from Unsigned to Signed using Numeric_Std",
+	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Convert from Unsigned to Signed using Numeric_Std (Adapted from: https://www.nandland.com/vhdl/tips/tip-convert-numeric-std-logic-vector-to-integer.html)\n\nsignal <INPUT>  : UNSIGNED(<NUMBER_OF_BITS_MINUS_1> downto 0);\nsignal <OUTPUT> : SIGNED(<NUMBER_OF_BITS_MINUS_1> downto 0);\n\n<OUTPUT> <= SIGNED(<INPUT>);",
+}
