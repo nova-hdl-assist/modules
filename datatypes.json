@@ -6,5 +6,5 @@
         	{ "name" : "<SUB_TYPE>", "options" : [ "integer", "real", "time", "enumeration", "character", "boolean", "bit", "string"] }
 	],
 	"moduleName" : "Data Types",
-	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Data type declaration\n\n <DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE>",
+	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Data type declaration\n\n <DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE>"
 }
