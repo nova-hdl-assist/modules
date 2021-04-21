@@ -1,6 +1,5 @@
 {
-  "content_list" : [
-          
+  "content_list" : [    
           { "name" : "Data Types", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/datatypes.json"},
           { "name" : "If Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/ifins.json"},
           { "name" : "Case Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/caseins.json"},
