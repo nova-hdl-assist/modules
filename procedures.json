@@ -1,0 +1,9 @@
+{
+	"inputtext" : ["<NAME>"],
+	"selects" : 
+	[
+	],
+  	
+	"moduleName" : "Procedure",
+	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Generic Procedure Subprogram\n\procedure <NAME> (\n\t-- Declaration of variables, constants and signals\n) is\nbegin\n\t-- Procedure Behaviour (ToDo)\nend <NAME>;"
+}
