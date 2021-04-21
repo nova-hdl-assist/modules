@@ -1,0 +1,8 @@
+{
+	"inputtext" : ["<INPUT>", "<NUMBER_OF_BITS>"],
+	"selects" : 
+	[
+	],
+	"moduleName" : "Convert from Integer to STD_LOGIC_VECTOR using Numeric_Std",
+	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Convert from Integer to STD_LOGIC_VECTOR using Numeric_Std (Adapted from: https://www.nandland.com/vhdl/tips/tip-convert-numeric-std-logic-vector-to-integer.html)\n\nsignal <INPUT>  : INTEGER;\nsignal <OUTPUT> : STD_LOGIC_VECTOR(<NUMBER_OF_BITS_MINUS_1> downto 0);\n\n-- This line demonstrates how to convert positive integers\n<OUTPUT> <= STD_LOGIC_VECTOR(to_unsigned(<INPUT>, <OUTPUT>'length));\n\n-- This line demonstrates how to convert positive or negative integers\n<OUTPUT> <= STD_LOGIC_VECTOR(to_signed(<INPUT>, <OUTPUT>'length));"
+}
