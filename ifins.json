@@ -1,0 +1,9 @@
+{
+	"inputtext" : [],
+	"selects" : 
+	[
+	],
+  	
+	"moduleName" : "If Instruction",
+	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- PIPO Shift Register (Adapted from: https://allaboutfpga.com/vhdl-code-for-4-bit-shift-register/)\n\nif condition then\n\t-- ToDo\nelsif Condiçao then\n\t-- ToDo\nelse\n\t-- ToDo\nend if;"
+}
