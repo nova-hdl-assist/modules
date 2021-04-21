@@ -2,6 +2,11 @@
   "content_list" : [
   
           { "name" : "Data Types", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/datatypes.json"},
+          { "name" : "If Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/ifins.json"},
+          { "name" : "Case Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/caseins.json"},
+          { "name" : "Loop Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/loopins.json"},
+          { "name" : "Procedure", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/procedures.json"},
+          { "name" : "Function", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/functions.json"},       
           { "name" : "Flip-Flop Type D", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/fftyped.json"},
           { "name" : "Flip-Flop Type T", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/fftypet.json"},
           { "name" : "Flip-Flop Type JK", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/fftypejk.json"},
