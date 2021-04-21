@@ -1,0 +1,10 @@
+{
+	"inputtext" : ["<NAME>"],
+	"selects" : 
+	[
+    { "name" : "<RETURN_TYPE>", "options" : [ "integer", "real", "time", "enumeration", "character", "boolean", "bit", "bit_vector", "string", "std_ulogic", "std_ulogic_vector", "std_logic", "std_logic_vector"] }
+	],
+  	
+	"moduleName" : "Procedure",
+	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Generic Procedure Subprogram\n\nfunction <NAME> (parameter_list) return <RETURN_TYPE> is\n\t-- Declaration of variables, constants and signals\nbegin\n\t-- Function Behaviour (ToDo)\n\treturn <RETURN_VALUE>;\nend <NAME>;"
+}
