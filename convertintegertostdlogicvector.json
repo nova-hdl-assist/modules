@@ -1,5 +1,5 @@
 {
-	"inputtext" : ["<INPUT>", "<NUMBER_OF_BITS>"],
+	"inputtext" : ["<INPUT>", "<OUTPUT>", "<NUMBER_OF_BITS>"],
 	"selects" : 
 	[
 	],
