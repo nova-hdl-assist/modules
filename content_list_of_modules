@@ -1,5 +1,12 @@
 {
   "content_list" : [
+          
+          { "name" : "Data Types", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/datatypes.json"},
+          { "name" : "If Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/ifins.json"},
+          { "name" : "Case Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/caseins.json"},
+          { "name" : "Loop Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/loopins.json"},
+          { "name" : "Procedure", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/procedures.json"},
+          { "name" : "Function", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/functions.json"},      
           { "name" : "Convert Integer to Signed", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/convertintegertosigned.json"},
           { "name" : "Convert from Integer to Std_Logic_Vector", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/convertintegertostdlogicvector.json"},
           { "name" : "Convert from Integer to Unsigned", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/convertintegertounsigned.json"},
@@ -12,12 +19,6 @@
           { "name" : "Convert from Unsigned to Integer", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/convertunsignedtointeger.json"},
           { "name" : "Convert from Unsigned to Signed", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/convertunsignedtosigned.json"},
           { "name" : "Convert from Unsigned to Std_Logic_Vector", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/convertunsignedtostdlogicvector.json"},
-          { "name" : "Data Types", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/datatypes.json"},
-          { "name" : "If Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/ifins.json"},
-          { "name" : "Case Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/caseins.json"},
-          { "name" : "Loop Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/loopins.json"},
-          { "name" : "Procedure", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/procedures.json"},
-          { "name" : "Function", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/functions.json"},       
           { "name" : "Flip-Flop Type D", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/fftyped.json"},
           { "name" : "Flip-Flop Type T", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/fftypet.json"},
           { "name" : "Flip-Flop Type JK", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/fftypejk.json"},
