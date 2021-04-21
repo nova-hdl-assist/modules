@@ -1,0 +1,9 @@
+{
+	"inputtext" : [],
+	"selects" : 
+	[
+	],
+  	
+	"moduleName" : "Loop Instruction",
+	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Loop Generic Instruction\n\nloop\n\t-- wait until <CONDITION>; -- If necessary\n\n\t-- ToDo\n\nend loop;"
+}
