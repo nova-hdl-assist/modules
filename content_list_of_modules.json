@@ -31,6 +31,8 @@
           { "name" : "PIPO Shift Register", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/PIPOshiftregister.json"},
           { "name" : "Multiplexer", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/multiplexer.json"},
           { "name" : "Demultiplexer", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/demultiplexer.json"},
+          { "name" : "Encoder", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/encoder.json"},
+          { "name" : "Decoder", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/decoder.json"},
           { "name" : "1-Bit Half Adder", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/1-bithalfadder.json"},
           { "name" : "1-Bit Full Adder", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/1-bitfulladder.json"},
           { "name" : "1-Bit Half Subtractor", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/1-bithalfsubtractor.json"},
