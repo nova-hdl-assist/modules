@@ -4,5 +4,5 @@
 	[
 	],
 	"moduleName" : "Convert from Std_Logic_Vector to Integer using Numeric_Std",
-	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Convert from Std_Logic_Vector to Integer using Numeric_Std (Adapted from: https://www.nandland.com/vhdl/tips/tip-convert-numeric-std-logic-vector-to-integer.html)\n\nsignal <INPUT>  : STD_LOGIC_VECTOR(<NUMBER_OF_BITS> downto 0);\nsignal <OUTPUT> : INTEGER;\n\n-- This line demonstrates the unsigned case\n<OUTPUT> <= to_integer(UNSIGNED(<INPUT>));\n\n-- This line demonstrates the signed case\n<OUTPUT> <= to_integer(SIGNED(<INPUT>));"
+	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Convert from Std_Logic_Vector to Integer using Numeric_Std (Adapted from: https://www.nandland.com/vhdl/tips/tip-convert-numeric-std-logic-vector-to-integer.html)\n\nsignal <INPUT>  : STD_LOGIC_VECTOR(<NUMBER_OF_BITS_MINUS_1> downto 0);\nsignal <OUTPUT> : INTEGER;\n\n-- This line demonstrates the unsigned case\n<OUTPUT> <= to_integer(UNSIGNED(<INPUT>));\n\n-- This line demonstrates the signed case\n<OUTPUT> <= to_integer(SIGNED(<INPUT>));"
 }
