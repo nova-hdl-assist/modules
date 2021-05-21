@@ -18,6 +18,7 @@
           { "name" : "Convert from Unsigned to Integer", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/convertunsignedtointeger.json"},
           { "name" : "Convert from Unsigned to Signed", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/convertunsignedtosigned.json"},
           { "name" : "Convert from Unsigned to Std_Logic_Vector", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/convertunsignedtostdlogicvector.json"},
+          { "name" : "Example of a Main", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/main"},
           { "name" : "Flip-Flop Type D", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/fftyped.json"},
           { "name" : "Flip-Flop Type T", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/fftypet.json"},
           { "name" : "Flip-Flop Type JK", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/fftypejk.json"},
