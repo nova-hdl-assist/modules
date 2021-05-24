@@ -1,0 +1,6 @@
+{
+	"inputtext" : ["<NUMBER_OF_NETS>"],
+	"autogenerate" : "\nNET "NETNAME" LOC = "LOCNAME" | IOSTANDARD = LVTTL;",
+	"moduleName" : "XDC File",
+	"moduleCode" : "--NOVA VHDL Configurator \n--XDC File<AUTO_GENERATE>"
+}
