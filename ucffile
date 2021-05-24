@@ -2,5 +2,5 @@
 	"inputtext" : ["<NUMBER_OF_NETS>"],
 	"autogenerate" : "\nNET \"NETNAME\" LOC = \"LOCNAME\";",
 	"moduleName" : "UCF File",
-	"moduleCode" : "--NOVA VHDL Configurator \n--UCF File<AUTO_GENERATE>"
+	"moduleCode" : "--NOVA VHDL Configurator \n--UCF File\n<AUTO_GENERATE>"
 }
