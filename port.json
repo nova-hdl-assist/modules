@@ -1,7 +1,7 @@
 {
-	 "inputtext" : ["<NAME>", "<MODE>", "<TYPE>", "<NUMBER_OF_BITS>"],
+   "inputtext" : ["<NAME>", "<MODE>", "<TYPE>", "<NUMBER_OF_BITS>"],
    "buttons" : ["Add"],
-   "autogenerate" : "\n\t\t<NAME> : <MODE> <TYPE>",",
-   "moduleName" : "Multiplexer",
-	 "moduleCode" : "-- VHDL CONFIGURATOR\n-- PORT \n\nPort ( <AUTO_GENERATE> );"
+   "autogenerate" : "\n\t\t<NAME> : <MODE> <TYPE>",
+   "moduleName" : "Port Declaration",
+   "moduleCode" : "-- VHDL CONFIGURATOR\n-- PORT \n\nPort ( <AUTO_GENERATE> );"
 }
