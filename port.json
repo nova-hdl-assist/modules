@@ -3,5 +3,5 @@
    "buttons" : ["Add"],
    "autogenerate" : "\n\t<NAME> : <MODE> <TYPE>",
    "moduleName" : "Port Declaration",
-   "moduleCode" : "-- VHDL CONFIGURATOR\n-- PORT \n\nPort ( <AUTO_GENERATE> );"
+   "moduleCode" : "-- VHDL CONFIGURATOR\n-- PORT \n\nPort ( );"
 }
