@@ -1,6 +1,11 @@
 {
-   "inputtext" : ["<NAME>", "<MODE>", "<TYPE>", "<NUMBER_OF_BITS>"],
+   "inputtext" : ["<NAME>", "<NUMBER_OF_BITS>"],
    "buttons" : ["Add"],
+   "selects" : 
+	 [
+    		{ "name" : "<MODE>", "options" : [ "in", "out", "buffer"] },
+        	{ "name" : "<TYPE>", "options" : [ "INTEGER", "STD_LOGIC", "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] }
+	 ],   
    "autogenerate" : "\n\t<NAME> : <MODE> <TYPE>",
    "moduleName" : "Port Declaration",
    "moduleCode" : "-- VHDL CONFIGURATOR\n-- PORT \n\nPort ( );"
