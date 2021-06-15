@@ -1,0 +1,5 @@
+{
+	"inputtext" : ["<NAME>"],
+	"moduleName" : "VHDL Module",
+	"moduleCode" : "-- VHDL CONFIGURATOR\nVHDL Module\n\n library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n--additional LIBRARY DECLARATIONS here\n\nentity <NAME> is\n\t--add PORT here\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\n\t--TYPES, SIGNALS, FUNCTIONS, PROCEDURES, and COMPONENTS here\n\nbegin\n\n\t--COMPONENTS INSTANTIATION, PROCESSES, SIGNALS ASSIGNMENT, and OUTPUTS ASSIGNMENT here\n\nend <NAME>";
+}
