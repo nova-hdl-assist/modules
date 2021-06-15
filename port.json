@@ -3,7 +3,7 @@
    "buttons" : ["Add"],
    "selects" : 
 	 [
-    		{ "name" : "<MODE>", "options" : [ "in", "out", "inout", "buffer"] },
+    		{ "name" : "<MODE>", "options" : [ "in", "out", "inout"] },
         	{ "name" : "<TYPE>", "options" : [ "INTEGER", "STD_LOGIC", "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] }
 	 ],   
    "autogenerate" : "\n\t<NAME> : <MODE> <TYPE>",
