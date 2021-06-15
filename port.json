@@ -4,7 +4,7 @@
    "selects" : 
 	 [
     		{ "name" : "<MODE>", "options" : [ "in", "out", "inout"] },
-        	{ "name" : "<TYPE>", "options" : [ "INTEGER", "STD_LOGIC", "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] }
+        	{ "name" : "<TYPE>", "options" : [ "STD_LOGIC", "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED", "INTEGER"] }
 	 ],   
    "autogenerate" : "\n\t<NAME> : <MODE> <TYPE>",
    "moduleName" : "Port Declaration",
