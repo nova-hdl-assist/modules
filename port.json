@@ -1,12 +1,12 @@
 {
-   "inputtext" : ["<SIGNAL_ID>", "<SIGNAL_NUMBER_OF_BITS>"],
+   "inputtext" : ["<SIGNAL_NAME>", "<SIGNAL_NUMBER_OF_BITS>"],
    "buttons" : ["Add"],
    "selects" : 
 	 [
     		{ "name" : "<SIGNAL_MODE>", "options" : [ "in", "out", "inout"] },
         	{ "name" : "<SIGNAL_TYPE>", "options" : [ "STD_LOGIC", "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED", "INTEGER"] }
 	 ],   
-   "autogenerate" : "\n\t<SIGNAL_ID> : <SIGNAL_MODE> <SIGNAL_TYPE>",
+   "autogenerate" : "\n\t<SIGNAL_NAME> : <SIGNAL_MODE> <SIGNAL_TYPE>",
    "moduleName" : "Port Declaration",
    "moduleCode" : "-- VHDL CONFIGURATOR\n-- PORT \n\nPort ( );"
 }
