@@ -1,7 +1,8 @@
 {
   "content_list" : [    
           { "name" : "Data Types", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/datatypes.json"},
-          { "name" : "Port Declaration", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/port.json"},
+          { "name" : "VHDL Module", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/vhdlmodule.json"},
+          { "name" : "Port Declaration", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/port.json"},   
           { "name" : "If Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/ifins.json"},
           { "name" : "Case Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/caseins.json"},
           { "name" : "Loop Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/loopins.json"},
