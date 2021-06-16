@@ -1,9 +1,10 @@
 {
 	"inputtext" : ["<NAME>", "<VALUE>"],
+	"buttons" : ["Add"],
 	"selects" : 
 	[
     		{ "name" : "<DATA_TYPE>", "options" : [ "constant", "variable", "signal"] },
-        	{ "name" : "<SUB_TYPE>", "options" : [ "integer", "real", "time", "enumeration", "character", "boolean", "bit", "bit_vector", "string", "std_ulogic", "std_ulogic_vector", "std_logic", "std_logic_vector"] }
+        	{ "name" : "<SUB_TYPE>", "options" : [ "INTEGER", "REAL", "TIME", "ENUMERATION", "CHARACTER", "BOOLEAN", "BIT", "BIT_VECTOR", "STRING", "STD_ULOGIC", "STD_ULOGIC_VECTOR", "STD_LOGIC", "STD_LOGIC_VECTOR"] }
 	],
 	"moduleName" : "Data Types",
 	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Data type declaration\n\n <DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE>"
