@@ -1,11 +1,11 @@
 {
   "content_list" : [    
           { "name" : "***FOR THE CHALLENGE***", "url" : ""},
-          { "name" : "VHDL Module", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/vhdlmodule.json"},
-          { "name" : "Port Declaration", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/port.json"},
-          { "name" : "Simple State Machine", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/simplestatemachine.json"}, 
-          { "name" : "Data Types", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/datatypes.json"},          
-          { "name" : "If Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/ifins.json"},
+          { "name" : "1º Create: VHDL Module", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/vhdlmodule.json"},
+          { "name" : "2º Declare: Port Declaration", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/port.json"},
+          { "name" : "3º Configure: Simple State Machine", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/simplestatemachine.json"}, 
+          { "name" : "4º Create: Data Types", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/datatypes.json"},          
+          { "name" : "5º Create: If Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/ifins.json"},
           { "name" : "*************************", "url" : ""},
           { "name" : "Case Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/caseins.json"},
           { "name" : "Loop Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/loopins.json"},
