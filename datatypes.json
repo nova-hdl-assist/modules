@@ -8,5 +8,5 @@
 	],
 	"autogenerate" : "\n\t<AUTO_GENERATE>",
 	"moduleName" : "Data Types",
-	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Data type declaration\n\n <DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE>;"
+	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Data type declaration\N--Syntax: <DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE> (<VALUE> is not necessary)\n\n <DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE>;"
 }
