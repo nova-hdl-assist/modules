@@ -6,7 +6,7 @@
     		{ "name" : "<DATA_TYPE>", "options" : [ "constant", "variable", "signal"] },
         	{ "name" : "<SUB_TYPE>", "options" : [ "INTEGER", "REAL", "TIME", "ENUMERATION", "CHARACTER", "BOOLEAN", "BIT", "BIT_VECTOR", "STRING", "STD_ULOGIC", "STD_ULOGIC_VECTOR", "STD_LOGIC", "STD_LOGIC_VECTOR"] }
 	],
-	"autogenerate" : "\n\t<DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE>;",
+	"autogenerate" : "<DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE>;",
 	"moduleName" : "Data Types",
-	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Data type declaration\n-- Syntax: <DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE> (<VALUE> is not necessary)\n\n\t<AUTO_GENERATE>"
+	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Data type declaration\n-- Syntax: <DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE> (<VALUE> is not necessary)\n\n<AUTO_GENERATE>"
 }
