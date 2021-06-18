@@ -3,8 +3,8 @@
 	"buttons" : ["Add"],
 	"selects" : 
 	[
-    		{ "name" : "<DATA_TYPE>", "options" : [ "constant", "variable", "signal"] },
-        	{ "name" : "<SUB_TYPE>", "options" : [ "INTEGER", "REAL", "TIME", "ENUMERATION", "CHARACTER", "BOOLEAN", "BIT", "BIT_VECTOR", "STRING", "STD_ULOGIC", "STD_ULOGIC_VECTOR", "STD_LOGIC", "STD_LOGIC_VECTOR"] }
+    		{ "name" : "<DATA_TYPE>", "options" : [ "signal", "variable", "constant"] },
+        	{ "name" : "<SUB_TYPE>", "options" : [  "STD_LOGIC", "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] }
 	],
 	"autogenerate" : "<DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE>;",
 	"moduleName" : "Data Types",
