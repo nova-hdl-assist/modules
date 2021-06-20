@@ -1,10 +1,11 @@
 {
-	"inputtext" : ["<NAME>", "<VALUE>", "<NUMBER_OF_BITS>"],
+	"inputtext" : ["<NAME>", "<NUMBER_OF_BITS>"],
 	"buttons" : ["Add"],
 	"selects" : 
 	[
     		{ "name" : "<DATA_TYPE>", "options" : [ "signal", "variable", "constant"] },
-        	{ "name" : "<SUB_TYPE>", "options" : [  "STD_LOGIC", "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] }
+        	{ "name" : "<SUB_TYPE>", "options" : [  "STD_LOGIC", "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] },
+		{ "name" : "<VALUE>", "options" : ["'0'","'1'"]}
 	],
 	"autogenerate" : "<DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE>;",
 	"moduleName" : "Data Types",
