@@ -1,4 +1,5 @@
 {
+	"_comment" : "SPECIAL FUNCTIONS WERE IMPLEMENTED IN THE APP FOR THIS MODULE! MODIFY THIS FILE CAREFULLY!",
 	"inputtext" : ["<NAME>", "<NUMBER_OF_BITS>"],
 	"buttons" : ["Add"],
 	"selects" : 
