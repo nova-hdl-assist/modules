@@ -1,7 +1,7 @@
 {
 	"_comment" : "SPECIAL FUNCTIONS WERE IMPLEMENTED IN THE APP FOR THIS MODULE! MODIFY THIS FILE CAREFULLY!",
 	"inputtext" : ["<OPERAND_A>", "<NUMBER_OF_BITS_OPA>", "<OPERAND_B>", "<NUMBER_OF_BITS_OPB>", "<RESULT>", "<NUMBER_OF_BITS_RES>"],
-	"buttons" : ["Add"],
+	"buttons" : ["Get Operation Expression"],
 	"selects" : 
 	[
     { "name" : "<OPERATION>", "options" : [ "+", "-", "*"] },
