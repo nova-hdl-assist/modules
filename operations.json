@@ -9,7 +9,7 @@
     { "name" : "<OPB_SUB_TYPE>", "options" : [  "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] },
     { "name" : "<RES_SUB_TYPE>", "options" : [  "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] }
   ],
-	"autogenerate" : "<RESULT> <= <OPERAND_A> <OPERATION> <OPERAND_B>;",
+	"autogenerate" : "<RESULT> <= <CMD_OP1>(<CMD_OP2>(<OPERAND_A>) <OPERATION> <CMD_OP3>(<OPERAND_B>));",
 	"moduleName" : "Operations",
 	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Operations\n\nSignal <OPERAND_A> : <OPA_SUB_TYPE> (<NUMBER_OF_BITS_OPA> downto 0);\nSignal <OPERAND_B> : <OPB_SUB_TYPE> (<NUMBER_OF_BITS_OPB> downto 0);\nSignal <RESULT> : <RES_SUB_TYPE> (<NUMBER_OF_BITS_RES> downto 0);\n\n<AUTO_GENERATE>"
 }
