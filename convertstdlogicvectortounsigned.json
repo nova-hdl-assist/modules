@@ -4,5 +4,5 @@
 	[
 	],
 	"moduleName" : "Convert from Std_Logic_Vector to Unsigned using Numeric_Std",
-	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Convert from Std_Logic_Vector to Unsigned using Numeric_Std (Adapted from: https://www.nandland.com/vhdl/tips/tip-convert-numeric-std-logic-vector-to-integer.html)\n\nsignal <INPUT>  : STD_LOGIC_VECTOR(<NUMBER_OF_BITS_MINUS_1> downto 0);\nsignal <OUTPUT> : UNSIGNED(<NUMBER_OF_BITS_MINUS_1> downto 0);\n\n<OUTPUT> <= UNSIGNED(<INPUT>);"
+	"moduleCode" : "-- VHDL Configurator\n-- Convert from Std_Logic_Vector to Unsigned using Numeric_Std \n\nsignal <INPUT>  : STD_LOGIC_VECTOR(<NUMBER_OF_BITS_MINUS_1> downto 0);\nsignal <OUTPUT> : UNSIGNED(<NUMBER_OF_BITS_MINUS_1> downto 0);\n\n<OUTPUT> <= UNSIGNED(<INPUT>);"
 }
