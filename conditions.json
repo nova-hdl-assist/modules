@@ -1,0 +1,10 @@
+{
+	"inputtext" : ["<OPERAND1>", "<OPERAND2>"],
+  "autogenerate" : "\n\t\t<INPUT>(<NUMBER_OF_BITS>) when \"<SELECT_NUMBER_OF_BITS_BINARY>\",",
+	"moduleName" : "Conditions",
+  "selects" : 
+	[
+    		{ "name" : "<OPERATOR>", "options" : [ "and", "or", "xor", "nand", "nor", "xnor", "=", "/=", "<", ">", "<=", ">="] }
+  ],
+	"moduleCode" : "-- VHDL CONFIGURATOR\n-- OPERATORS: Arithmetic Operators: +, -, * | Logical Operators: and, or, xor, nand, nor, xnor | Relational Operators: =, /=, <, >, <=, >= \n\n(<OPERAND1> <OPERATOR> <OPERAND2>)"
+}
