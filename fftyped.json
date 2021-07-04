@@ -5,6 +5,6 @@
     		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] }
 	],
 	"moduleName" : "Flip-Flop Type D",
-	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Flip-Flop Type D (Adapted from: https://www.fpga4student.com/2017/02/vhdl-code-for-d-flip-flop.html)\n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( D : in STD_LOGIC;\n\tclk : in STD_LOGIC;\n\tQ : out STD_LOGIC);\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\nbegin\n\tprocess(clk)\n\tbegin\n\t\tif(<EDGE_TYPE>(clk)) then\n\t\t\tQ <= D;\n\t\tend if;\n\tend process;\nend Behavioral;"
+	"moduleCode" : "-- VHDL Configurator\n-- Flip-Flop Type D \n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\tPort ( D : in STD_LOGIC;\n\tclk : in STD_LOGIC;\n\tQ : out STD_LOGIC);\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\nbegin\n\tprocess(clk)\n\tbegin\n\t\tif(<EDGE_TYPE>(clk)) then\n\t\t\tQ <= D;\n\t\tend if;\n\tend process;\nend Behavioral;"
 	
 }
