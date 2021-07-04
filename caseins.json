@@ -5,5 +5,5 @@
 	],
   	
 	"moduleName" : "Case Instruction",
-	"moduleCode" : "-- NOVA VHDL CONFIGURATOR\n-- Case Generic Instruction \n\ncase <VAR> is\n\twhen <OPTION1> => -- ToDo\n\twhen <OPTION2> => -- ToDo\nend case;"
+	"moduleCode" : "-- VHDL Configurator\n-- Case Generic Instruction \n\ncase <VAR> is\n\twhen <OPTION1> => -- ToDo\n\twhen <OPTION2> => -- ToDo\nend case;"
 }
