@@ -8,6 +8,7 @@
           { "name" : "5º Create: If Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/ifins.json"},
           { "name" : "6º Create: Conditions", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/conditions.json"},
           { "name" : "7º Create: Operations", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/operations.json"},
+          { "name" : "???º Create: Number Converter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/numberconverter"},    
           { "name" : "**************************", "url" : ""},
           { "name" : "Case Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/caseins.json"},
           { "name" : "Loop Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/loopins.json"},
