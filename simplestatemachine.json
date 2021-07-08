@@ -6,7 +6,7 @@
 		{ "name" : "<RESET_TYPE>", "options" : [ "Synchronous", "Asynchronous"] },
 		{ "name" : "<RESET_STATE_NAME>", "options" : []}
 	],
-	"autogenerate" : "when s_<NUMBER_OF_STATES>=>\n\t\t\t\t\t--ToDo <NUMBER_OF_STATES> code\n\t\t\t\t",
+	"autogenerate" : "when s_<NUMBER_OF_STATES>=>\n\t\t\t\t\t--ToDo S_<NUMBER_OF_STATES> code\n\t\t\t\t",
 	"autogeneratestates" : " s_<NUMBER_OF_STATES>",
 	"autogenerateprocedures" : "",
 	"moduleName" : "Simple State Machine",
