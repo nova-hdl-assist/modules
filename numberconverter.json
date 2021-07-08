@@ -4,7 +4,7 @@
 	"buttons" : ["Convert!"],
 	"selects" : 
 	[
-	    { "name" : "<NUMBER_SYSTEM>", "options" : [ "DECIMAL", "BINARY", "HEXADECIMAL"] }
+	    { "name" : "<NUMBER_TO_CONVERT_SYSTEM>", "options" : [ "DECIMAL", "BINARY", "HEXADECIMAL"] }
   	],
 	"autogenerate" : "\n\nNumber Inserted: <NUMBER_TO_CONVERT>  |  Binary Form: <BINARY_FORM>  |  Decimal Form: <DECIMAL_FORM>  |  Hexadecimal Form: <HEXADECIMAL_FORM>",
 	"moduleName" : "Number Converter",
