@@ -1,9 +1,13 @@
 {
-	"inputtext" : ["<NAME>", "<RESET>", "<CLOCK>"],
-  "selects" : 
+	"inputtext" : ["<NAME>", "<RESET>", "<CLOCK>", "<NUMBER_OF_STATES>"],
+  	"selects" : 
 	[
-    		  { "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] }
+    		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] },
+		{ "name" : "<RESET_TYPE>", "options" : [ "Synchronous", "Asynchronous"] },
+		{ "name" : "<RESET_STATE_NAME>", "options" : []}
 	],
+	"autogeneratestates" : " s_<NUMBER_OF_STATES>",
 	"moduleName" : "Simple State Machine",
-	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Simple State Machine\n\n type st_calc_type is (s_0, s_1, s_2);\nsignal <NAME>_st_calc_state: st_calc_type;\n\n<NAME>_st_calc_process: process(<CLOCK>)\nbegin\n\tif <EDGE_TYPE>(<CLOCK>) then\n\t\tif <RESET> = '1' then\n\t\t\tst_calc_state <= s_0;\n\t\telse\n\t\t\tcase (<NAME>_st_calc_state) is\n\t\t\t\twhen s_0 =>\n\t\t\t\t\t--TODO s_0 code\n\t\t\t\twhen s_1 =>\n\t\t\t\t\t--TODO s_1 code\n\t\t\t\twhen s_2 =>\n\t\t\t\t\t--TODO s_2 code\n\t\t\tend case;\n\t\tend if;\n\tend if;\nend process;\n\nsignal aux : std_logic;"
+	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Simple State Machine\n\n type <NAME>_type is (<AUTO_GENERATE_STATES>);\nsignal <NAME>_state: <NAME>_type;\n\n<NAME>_process: process(<CLOCK>)\nbegin\n\tif <EDGE_TYPE>(<CLOCK>) then\n\t\tif <RESET> = '1' then\n\t\t\t<NAME>_state <= s_0;\n\t\telse\n\t\t\tcase (<NAME>_state) is\n\t\t\t\twhen s_0 =>\n\t\t\t\t\t--TODO s_0 code\n\t\t\t\twhen s_1 =>\n\t\t\t\t\t--TODO s_1 code\n\t\t\t\twhen s_2 =>\n\t\t\t\t\t--TODO s_2 code\n\t\t\tend case;\n\t\tend if;\n\tend if;\nend process;\n\nsignal aux : std_logic;",
+	"moduleCode2" : "-- VHDL CONFIGURATOR\n-- Simple State Machine\n\n type <NAME>_type is (<AUTO_GENERATE_STATES>);\nsignal <NAME>_state: <NAME>_type;\n\n<NAME>_process: process(<CLOCK>)\nbegin\n\tif <EDGE_TYPE>(<CLOCK>) then\n\t\t<NAME>_state <= s_0;\n\t\tcase (<NAME>_state) is\n\t\t\t\twhen s_0 =>\n\t\t\t\t\t--TODO s_0 code\n\t\t\t\twhen s_1 =>\n\t\t\t\t\t--TODO s_1 code\n\t\t\t\twhen s_2 =>\n\t\t\t\t\t--TODO s_2 code\n\t\t\tend case;\n\t\tend if;\n\tend if;\nend process;\n\nsignal aux : std_logic;"
 }
