@@ -6,10 +6,10 @@
 		{ "name" : "<RESET_TYPE>", "options" : [ "Synchronous", "Asynchronous"] },
 		{ "name" : "<RESET_STATE_NAME>", "options" : []}
 	],
-	"autogenerate" : "\t\t\t\twhen s_<NUMBER_OF_STATES>=>\n\t\t\t\t\t--ToDo <NUMBER_OF_STATES> code\n",
+	"autogenerate" : "when s_<NUMBER_OF_STATES>=>\n\t\t\t\t\t--ToDo <NUMBER_OF_STATES> code\n\t\t\t\t",
 	"autogeneratestates" : " s_<NUMBER_OF_STATES>",
 	"autogenerateprocedures" : "",
 	"moduleName" : "Simple State Machine",
-	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Simple State Machine\n\n type <NAME>_type is (<AUTO_GENERATE_STATES>);\nsignal <NAME>_state: <NAME>_type;\n\n<NAME>_process: process(<CLOCK>)\nbegin\n\tif <EDGE_TYPE>(<CLOCK>) then\n\t\tif <RESET> = '1' then\n\t\t\t<NAME>_state <= s_0;\n\t\telse\n\t\t\tcase (<NAME>_state) is\n\t\t\t<AUTO_GENERATE>\n\t\tend if;\n\tend if;\nend process;\n\nsignal aux : std_logic;",
+	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Simple State Machine\n\n type <NAME>_type is (<AUTO_GENERATE_STATES>);\nsignal <NAME>_state: <NAME>_type;\n\n<NAME>_process: process(<CLOCK>)\nbegin\n\tif <EDGE_TYPE>(<CLOCK>) then\n\t\tif <RESET> = '1' then\n\t\t\t<NAME>_state <= s_0;\n\t\telse\n\t\t\tcase (<NAME>_state) is\n\t\t\t\t<AUTO_GENERATE>\n\t\tend if;\n\tend if;\nend process;\n\nsignal aux : std_logic;",
 	"moduleCode2" : "-- VHDL CONFIGURATOR\n-- Simple State Machine\n\n type <NAME>_type is (<AUTO_GENERATE_STATES>);\nsignal <NAME>_state: <NAME>_type;\n\n<NAME>_process: process(<CLOCK>)\nbegin\n\tif <EDGE_TYPE>(<CLOCK>) then\n\t\t<NAME>_state <= s_0;\n\t\tcase (<NAME>_state) is\n\t\t\t\t<AUTO_GENERATE>\n\t\t\tend case;\n\t\tend if;\n\tend if;\nend process;\n\nsignal aux : std_logic;"
 }
