@@ -5,5 +5,5 @@
 	],
   	
 	"moduleName" : "If Statement",
-	"moduleCode" : "-- VHDL Configurator\n-- Generic If Statement\n\nif condition then\n\t-- ToDo code1\nelsif condition2 then\n\t-- ToDo code2\nelsif condition3 then\n\t-- ToDo code3\nelse\n\t-- ToDo code4\nend if;"
+	"moduleCode" : "-- VHDL Configurator\n-- Generic If Statement\n\nif condition then\n\t-- ToDo Sequential Statements 1\nelsif condition2 then\n\t-- ToDo Sequential Statements 2\nelsif condition3 then\n\t-- ToDo Sequential Statements 3\nelse\n\t-- ToDo Sequential Statements 4\nend if;"
 }
