@@ -5,5 +5,5 @@
 	],
   	
 	"moduleName" : "If Instruction",
-	"moduleCode" : "-- VHDL Configurator\n-- If Generic Instruction\n\nif condition then\n\t-- ToDo\nelsif Condiçao then\n\t-- ToDo\nelse\n\t-- ToDo\nend if;"
+	"moduleCode" : "-- VHDL Configurator\n-- If Generic Instruction\n\nif condition then\n\t-- ToDo assign1\nelsif condition2 then\n\t-- ToDo assign2n\t-- ToDo\nelsif condition3 then\n\t-- ToDo  assign3\nelse\n\t-- ToDo  assign4\nend if;"
 }
