@@ -6,7 +6,7 @@
           { "name" : "3º Configure: Simple State Machine", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/simplestatemachine.json"}, 
           { "name" : "4º Create: Data Types", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/datatypes.json"},          
           { "name" : "5º Create: If Statement", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/ifins.json"},
-          { "name" : "6º Create: Conditions", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/conditions.json"},
+          { "name" : "6º Create: Logical/Relational Expression", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/conditions.json"},
           { "name" : "7º Create: Operations", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/operations.json"},
           { "name" : "8º Create: Number Converter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/numberconverter.json"},    
           { "name" : "**************************", "url" : ""},
