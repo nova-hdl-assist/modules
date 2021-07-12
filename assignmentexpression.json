@@ -1,0 +1,13 @@
+{
+  "_comment" : "SPECIAL FUNCTIONS WERE IMPLEMENTED IN THE APP FOR THIS MODULE! MODIFY THIS FILE CAREFULLY!",
+	"inputtext" : ["<SIGVAR>", "<OBJECT>"],
+  "buttons" : ["Add"],
+	"selects" : 
+	[
+    		{ "name" : "<ASSIGMENT_TYPE>", "options" : [ "signal", "variable"] }
+	],
+  "autogenerate" : "\n<SIGVAR> <ASSIGMENT_TYPE> <OBJECT>",
+	"moduleName" : "Assignment Expression",
+	"moduleCode" : "-- VHDL Configurator\n-- Assignment Expression\n\n<AUTO_GENERATE> "
+	
+}
