@@ -9,7 +9,7 @@
           { "name" : "6º Create: Logical/Relational Expression", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/conditions.json"},
           { "name" : "7º Create: Arithmetic Operation", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/operations.json"},
           { "name" : "8º Create: Assignment Expression", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/assignmentexpression.json"},
-          { "name" : "9º Create: Number Converter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/numberconverter.json"},    
+          { "name" : "9º Create: Decimal to Binary Converter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/decimaltobinaryconverter"},  
           { "name" : "**************************", "url" : ""},
           { "name" : "Case Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/caseins.json"},
           { "name" : "Loop Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/loopins.json"},
@@ -49,6 +49,7 @@
           { "name" : "1-Bit Full Subtractor", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/1-bitfullsubtractor.json"},
           { "name" : "High Level Adder and/or Subtractor", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/highleveladdersubtractor.json"},
           { "name" : "State Machine", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/statemachine.json"},
+          { "name" : "Number Converter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/numberconverter.json"},   
           { "name" : "UCF File", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/ucffile.json"},
           { "name" : "XDC File", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/xdcfile.json"}
                   
