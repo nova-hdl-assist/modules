@@ -1,5 +1,5 @@
 {
-	"inputtext" : ["<INPUT>", "<ORIGINAL_DATA_TYPE>", "<DATA_TYPE_TO_CONVERT_TO>"],
+	"inputtext" : ["<INPUT>"],
 	"selects" : 
 	[
 		{ "name" : "<ORIGINAL_DATA_TYPE>", "options" : [ "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] },
