@@ -3,7 +3,7 @@
 	"selects" : 
 	[
 		{ "name" : "<ORIGINAL_DATA_TYPE>", "options" : [ "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] },
-		{ "name" : "<DATA_TYPE_TO_CONVERT_TO>", "options" : [ "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] }
+		{ "name" : "<DATA_TYPE_TO_CONVERT_TO>", "options" : ["UNSIGNED", "STD_LOGIC_VECTOR", "SIGNED"] }
 	],
 	"moduleName" : "Data Type Converter",
 	"moduleCode" : "-- VHDL Configurator\n-- Data Type Converter using Numeric_Std \n\n<DATA_TYPE_TO_CONVERT_TO>(<INPUT>)"
