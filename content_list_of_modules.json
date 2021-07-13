@@ -10,7 +10,7 @@
           { "name" : "7º Create: Arithmetic Operation", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/operations.json"},
           { "name" : "8º Create: Assignment Expression", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/assignmentexpression.json"},
           { "name" : "9º Create: Data Type Converter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/datatypeconverter.json"},
-          { "name" : "10º Create: Decimal to Binary Converter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/decimaltobinaryconverter"},  
+          { "name" : "10º Create: Decimal to Binary Converter", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/decimaltobinaryconverter.json"},  
           { "name" : "**************************", "url" : ""},
           { "name" : "Case Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/caseins.json"},
           { "name" : "Loop Instruction", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/loopins.json"},
