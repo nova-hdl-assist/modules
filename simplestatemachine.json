@@ -10,6 +10,6 @@
 	"autogeneratestates" : " s_<NUMBER_OF_STATES>",
 	"autogenerateprocedures" : "",
 	"moduleName" : "Simple State Machine",
-	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Simple State Machine\n\ntype <NAME>_type is (<AUTO_GENERATE_STATES>);\nsignal <NAME>_state: <NAME>_type;\n\n<NAME>_process: process(<CLOCK>)\nbegin\n\tif <EDGE_TYPE>(<CLOCK>) then\n\t\tif <RESET> = '1' then\n\t\t\t<NAME>_state <= s_0;\n\t\telse\n\t\t\tcase (<NAME>_state) is\n\t\t\t\t<AUTO_GENERATE>\n\t\tend if;\n\tend if;\nend process;",
+	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Simple State Machine\n\ntype <NAME>_type is (<AUTO_GENERATE_STATES>);\nsignal <NAME>_state: <NAME>_type;\n\n<NAME>_process: process(<CLOCK>)\nbegin\n\tif <EDGE_TYPE>(<CLOCK>) then\n\t\tif <RESET> = '1' then\n\t\t\t<NAME>_state <= s_0;\n\t\telse\n\t\t\tcase (<NAME>_state) is\n\t\t\t\t<AUTO_GENERATE>\n\t\t\tend case;\n\t\tend if;\n\tend if;\nend process;",
 	"moduleCode2" : "-- VHDL CONFIGURATOR\n-- Simple State Machine\n\ntype <NAME>_type is (<AUTO_GENERATE_STATES>);\nsignal <NAME>_state: <NAME>_type;\n\n<NAME>_process: process(<CLOCK>)\nbegin\n\tif <RESET> = '1' then\n\t\t<NAME>_state <= s_0;\n\telse\n\t\tcase (<NAME>_state) is\n\t\t\t\t<AUTO_GENERATE>\n\t\t\tend case;\n\tend if;\nend process;"
 }
