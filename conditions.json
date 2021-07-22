@@ -5,7 +5,7 @@
 	"moduleName" : "Logical/Relational Expression",
   	"selects" : 
 	[
-    		{ "name" : "<OPERATOR>", "options" : [ "**ARITHMETIC OP**", "and", "or", "xor", "nand", "nor", "xnor", "**LOGICAL OP**", "equal", "different", "less than", "greater than", "equal or less than", "equal or greater than"] }
+    		{ "name" : "<OPERATOR>", "options" : [ "**ARITHMETIC OP**", "and", "or", "xor", "nand", "nor", "xnor", "**LOGICAL OP**", "equal", "not equal", "less than", "greater than", "equal or less than", "equal or greater than"] }
   	],
 	"autogenerate" : "(<OPERAND1> <OPERATOR> <OPERAND2>)",
 	"moduleCode" : "-- VHDL CONFIGURATOR\n-- OPERATORS: Arithmetic Operators: +, -, * | Logical Operators: and, or, xor, nand, nor, xnor | Relational Operators: =, /=, <, >, <=, >= \n\n<AUTO_GENERATE>"
