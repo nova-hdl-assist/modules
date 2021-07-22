@@ -4,7 +4,7 @@
 	"buttons" : ["Get Operation Expression"],
 	"selects" : 
 	[
-	    { "name" : "<OPERATION>", "options" : [ "+", "-", "*"] },
+	    { "name" : "<OPERATION>", "options" : [ "Addition", "Subtraction", "Multiplication"] },
 	    { "name" : "<OPA_SUB_TYPE>", "options" : [  "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] },
 	    { "name" : "<OPB_SUB_TYPE>", "options" : [  "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] },
 	    { "name" : "<RES_SUB_TYPE>", "options" : [  "STD_LOGIC_VECTOR", "UNSIGNED", "SIGNED"] }
