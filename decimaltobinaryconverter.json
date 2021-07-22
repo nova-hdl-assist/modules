@@ -1,7 +1,7 @@
 {
   	"_comment" : "SPECIAL FUNCTIONS WERE IMPLEMENTED IN THE APP FOR THIS MODULE! MODIFY THIS FILE CAREFULLY!",
 	"inputtext" : ["<NUMBER_TO_CONVERT>", "<NUMBER_OF_BITS>"],
-	"buttons" : ["Convert!", , "Copy Binary Form!"],
+	"buttons" : ["Convert!", "Copy Binary Form!"],
 	"autogenerate" : "\n\nDecimal Number Inserted: <NUMBER_TO_CONVERT>  |  Binary Form: <BINARY_FORM>",
 	"moduleName" : "Decimal To Binary Converter",
 	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Decimal To Binary Converter\n\n<AUTO_GENERATE>"
