@@ -3,5 +3,5 @@
 	"buttons" : ["Add"],
 	"autogenerate" : "NET \"<NET_NAME>\" LOC = \"LOCNAME\";",
 	"moduleName" : "UCF File",
-	"moduleCode" : "-- VHDL Configurator \n--UCF File\n\n<AUTO_GENERATE>"
+	"moduleCode" : "-- VHDL Configurator \n-- UCF File\n\n<AUTO_GENERATE>"
 }
