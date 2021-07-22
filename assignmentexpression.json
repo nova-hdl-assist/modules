@@ -6,7 +6,7 @@
 	[
     		{ "name" : "<ASSIGMENT_TYPE>", "options" : [ "signal", "variable"] }
 	],
-  	"autogenerate" : "\n<SIGVAR> <ASSIGMENT_TYPE> <OBJECT>",
+  	"autogenerate" : "\n<SIGVAR> <ASSIGMENT_TYPE> <OBJECT>;",
 	"moduleName" : "Assignment Expression",
 	"moduleCode" : "-- VHDL Configurator\n-- Assignment Expression\n\n<AUTO_GENERATE> "
 	
