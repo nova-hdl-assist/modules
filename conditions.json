@@ -1,5 +1,7 @@
 {
+	"_comment" : "SPECIAL FUNCTIONS WERE IMPLEMENTED IN THE APP FOR THIS MODULE! MODIFY THIS FILE CAREFULLY!",
 	"inputtext" : ["<OPERAND1>", "<OPERAND2>"],
+	"buttons" : ["Get Expression"],
   	"autogenerate" : "\n\t\t<INPUT>(<NUMBER_OF_BITS>) when \"<SELECT_NUMBER_OF_BITS_BINARY>\",",
 	"moduleName" : "Logical/Relational Expression",
   	"selects" : 
