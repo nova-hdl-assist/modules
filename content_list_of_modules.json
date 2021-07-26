@@ -63,7 +63,9 @@
           { "name" : "PIPO Shift Register", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/PIPOshiftregister.json"},
           { "name" : "****SUBPROGRAMS****", "url" : ""},
           { "name" : "Procedure", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/procedures.json"},
-          { "name" : "Function", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/functions.json"},  
+          { "name" : "Function", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/functions.json"}, 
+          { "name" : "****MODULATIONS****", "url" : ""},
+          { "name" : "Pulse Width Modulation", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/pwmDirect.json"},
           { "name" : "****CONSTRAINTS FILE****", "url" : ""},
           { "name" : "UCF File", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/ucffile.json"},
           { "name" : "XDC File", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/xdcfile.json"}         
