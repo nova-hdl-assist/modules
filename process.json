@@ -5,5 +5,5 @@
 	],
   	
 	"moduleName" : "Process Instruction",
-	"moduleCode" : "-- VHDL Configurator\n-- Generic Process \n\noptional_process_name: process(--Optional sensitive list here)\n\t--Declarations here\nbegin\n\t--Sequential statements here\nend process;"
+	"moduleCode" : "-- VHDL Configurator\n-- Generic Process \n\noptional_process_name: process(--Sensitive list here)\n\t--Declarations here\nbegin\n\t--Sequential statements here\nend process;"
 }
