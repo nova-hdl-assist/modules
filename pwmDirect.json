@@ -4,5 +4,8 @@
 	[
     		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] },
         	{ "name" : "<RESET_TYPE>", "options" : [ "Synchronous", "Asynchronous"] }
-	]
+	],	
+	"moduleName" : "Pulse Width Modulation (Direct)",
+	"moduleCode" : "library IEEE;",
+	"moduleCode2" : "library IEEE;"
 }
