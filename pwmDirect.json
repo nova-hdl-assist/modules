@@ -1,5 +1,5 @@
 {
-	"inputtext" : ["<NAME>", "<CLK>", "<RESET>", "<OUTPUT>", "<FREQ_HZ>","<FOSC_HZ>", "<PWM_PERCENT>"],
+	"inputtext" : ["<NAME>", "<CLOCK>", "<RESET>", "<OUTPUT>", "<FREQ_HZ>","<FOSC_HZ>", "<PWM_PERCENT>"],
 	"selects" : 
 	[
     		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] },
