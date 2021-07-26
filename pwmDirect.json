@@ -6,7 +6,7 @@
         	{ "name" : "<RESET_TYPE>", "options" : [ "Synchronous", "Asynchronous"] }
 	],
 	
-	"moduleName" : "State Machine",
+	"moduleName" : "Pulse Width Modulation (Direct)",
 	"moduleCode" : "library IEEE;",
 	"moduleCode2" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\nPort\n\t(\n\t<CLK> \t : in STD_LOGIC;\n\t<RESET>  : in STD_LOGIC;\n\t<OUTPUT> : out STD_LOGIC := \'0\'\n\t);\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\nsignal cont : integer range 0 to (<FREQ_HZ>/<FOSC_HZ>-1) := 0;\n\nbegin\n\n\tprocess(<CLK>,<RESET>)\n\tbegin\n\tif <RESET> = \'1\' then\n\t\t\t\tcont <= 0;\n\t\t\t\t<OUTPUT> <= \'0\';\n\t\t\t\telse\n\tif <EDGE_TYPE>(<CLK>) then\n\t\tif cont = ((<FREQ_HZ>/<FOSC_HZ>)-1) then\n\t\t\t\tcont \t <= 0;\n\t\t\t\t<OUTPUT> <= \'0\';\n\t\telse\n\t\t\tif cont < (((<FREQ_HZ>/<FOSC_HZ>)*<PWM_PERCENT>)/100) then\n\t\t\t\t\t<OUTPUT> <= \'1\';\n\t\t\t\t\tcont <= cont + 1;\t\n\t\t\t\t\telse\n\t\t\t\t\t<OUTPUT> <= \'0\';\n\t\t\t\t\tcont <= cont + 1;\n\t\t\tend if;\n\t\tend if;\n\tend if;\n\tend if;\n\n\tend process;\n\n\nend Behavioral;\n\n"
 }
