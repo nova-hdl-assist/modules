@@ -6,6 +6,7 @@
         	{ "name" : "<RESET_TYPE>", "options" : [ "Synchronous", "Asynchronous"] }
 	],	
 	"moduleName" : "Pulse Width Modulation (Direct)",
-	"moduleCode" : "library IEEE;",
+	"moduleCode" : "library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n\nPort\n\t(\n\t<CLK>",
 	"moduleCode2" : "library IEEE;"
 }
+
