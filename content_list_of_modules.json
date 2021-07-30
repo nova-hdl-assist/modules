@@ -70,7 +70,7 @@
           { "name" : "UCF File", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/ucffile.json"},
           { "name" : "XDC File", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/xdcfile.json"},
           { "name" : "****OTHER MODULES****", "url" : ""},
-          { "name" : "Timer", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/timer.json"},
+          { "name" : "Timer", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/timer.json"}
                   
    ]
  }
