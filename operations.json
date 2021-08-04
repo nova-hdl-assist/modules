@@ -11,5 +11,5 @@
   	],
 	"autogenerate" : "<RESULT> <= <CMD_OPF>(<CMD_OPA>(<OPERAND_A>) <OPERATION> <CMD_OPB>(<OPERAND_B>));",
 	"moduleName" : "Arithmetic Operation",
-	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Operations\n\nSignal <OPERAND_A> : <OPA_SUB_TYPE> (<NUMBER_OF_BITS_OPA> downto 0);\nSignal <OPERAND_B> : <OPB_SUB_TYPE> (<NUMBER_OF_BITS_OPB> downto 0);\nSignal <RESULT> : <RES_SUB_TYPE> (<NUMBER_OF_BITS_RES> downto 0);\n\n<AUTO_GENERATE>"
+	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Operations\n\nuse IEEE.NUMERIC_STD.ALL;\n\nSignal <OPERAND_A> : <OPA_SUB_TYPE> (<NUMBER_OF_BITS_OPA> downto 0);\nSignal <OPERAND_B> : <OPB_SUB_TYPE> (<NUMBER_OF_BITS_OPB> downto 0);\nSignal <RESULT> : <RES_SUB_TYPE> (<NUMBER_OF_BITS_RES> downto 0);\n\n<AUTO_GENERATE>"
 }
