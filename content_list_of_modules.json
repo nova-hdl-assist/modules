@@ -1,6 +1,6 @@
 {
   "content_list" : [    
-          { "name" : "****MAIN MODULES****", "url" : ""},
+          { "name" : "****MAIN MODULE****", "url" : ""},
           { "name" : "Empty VHDL Module", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/vhdlmodule.json"},
           { "name" : "****DECLARATIONS****", "url" : ""},
           { "name" : "Port Declaration", "url" : "https://raw.githubusercontent.com/NunoViegasLeal/VHDL4FPGAs/main/port.json"},
