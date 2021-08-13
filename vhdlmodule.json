@@ -1,5 +1,5 @@
 {
 	"inputtext" : ["<NAME>"],
-	"moduleName" : "NOVA-HDL-Assist",
-	"moduleCode" : "-- VHDL CONFIGURATOR\n-- VHDL Module\n\n library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n--additional LIBRARY DECLARATIONS here\n\nentity <NAME> is\n\n--add PORT here\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\n--TYPES, SIGNALS, FUNCTIONS, PROCEDURES, and COMPONENTS here\n\nbegin\n\n--COMPONENTS INSTANTIATION, PROCESSES, SIGNALS ASSIGNMENT, and OUTPUTS ASSIGNMENT here\n\nend Behavioral;"
+	"moduleName" : "VHDL Module",
+	"moduleCode" : "-- NOVA-HDL-Assist\n-- VHDL Module\n\n library IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n--additional LIBRARY DECLARATIONS here\n\nentity <NAME> is\n\n--add PORT here\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\n--TYPES, SIGNALS, FUNCTIONS, PROCEDURES, and COMPONENTS here\n\nbegin\n\n--COMPONENTS INSTANTIATION, PROCESSES, SIGNALS ASSIGNMENT, and OUTPUTS ASSIGNMENT here\n\nend Behavioral;"
 }
