@@ -10,5 +10,5 @@
 	],
 	"autogenerate" : "<DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE>;",
 	"moduleName" : "Data Types",
-	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Data type declaration\n-- Syntax: <DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE> (<VALUE> is not necessary)\n\n<AUTO_GENERATE>"
+	"moduleCode" : "-- VHDL CONFIGURATOR\n-- Data type declaration\n-- Syntax: <DATA_TYPE> <NAME> : <SUB_TYPE> := <VALUE> (<VALUE> is not necessary)\nuse IEEE.NUMERIC_STD.ALL; -- Add when using UNSIGNED or SIGNED sub types\n\n<AUTO_GENERATE>"
 }
