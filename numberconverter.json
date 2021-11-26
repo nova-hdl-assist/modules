@@ -1,5 +1,4 @@
 {
-	"_comment" : "SPECIAL FUNCTIONS WERE IMPLEMENTED IN THE APP FOR THIS MODULE! MODIFY THIS FILE CAREFULLY!",
 	"inputtext" : ["<NUMBER_TO_CONVERT>"],
 	"buttons" : ["Convert!"],
 	"selects" : 
