@@ -1,5 +1,5 @@
 {
-	"inputtext" : ["<NAME>", "<RESET>", "<RESET>", "<CLOCK>", "<NUMBER_OF_STATES>"],
+	"inputtext" : ["<NAME>", "<RESET>", "<CLOCK>", "<NUMBER_OF_STATES>"],
   	"selects" : 
 	[
     		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] },
