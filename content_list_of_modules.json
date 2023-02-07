@@ -72,6 +72,7 @@
           { "name" : "Function", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/functions.json"}, 
           { "name" : "****OTHER MODULES****", "url" : ""},
           { "name" : "Timer", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/timer.json"},
+          { "name" : "Clock Divider", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/ClockDivider.json"},
           { "name" : "Debounce Buttons", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/debounceButton.json"},
           { "name" : "Pulse Width Modulation", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/pwmDirect.json"},
           { "name" : "Edge Detector", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/EdgeDetector.json"},
