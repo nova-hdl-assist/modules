@@ -4,6 +4,6 @@
 	[
 	],
   	
-	"moduleName" : "For Loop",
+	"moduleName" : "For Statement",
 	"moduleCode" : "-- In a for loop, the variable that is going to be itinerating in the loop does not \n--need to be declared beforehand and it will be increased automatically after each iteration \n\n for <variable_name> in <lower_limit> to <upper_limit> loop \n   <statement>;\n   <statement>;\nend loop;"
 }
