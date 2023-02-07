@@ -26,6 +26,7 @@
           { "name" : "1-Bit Full Subtractor Module", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/1-bitfullsubtractor.json"},
           { "name" : "N-Bit Subtractor Module", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/n-bitsubtractor.json"},
           { "name" : "Other Adder and/or Subtractor Module", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/highleveladdersubtractor.json"},
+          { "name" : "Basic ALU", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/BasicALU.json"},
           { "name" : "****MAIN CONVERTERS****", "url" : ""},
           { "name" : "Data Type Converter", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/datatypeconverter.json"},
           { "name" : "Decimal to Binary Converter", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/decimaltobinaryconverter.json"}, 
