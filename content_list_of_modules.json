@@ -13,6 +13,7 @@
           { "name" : "If Statement", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/ifins.json"},
           { "name" : "Case Statement", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/caseins.json"},
           { "name" : "Loop Statement", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/loopins.json"},
+          { "name" : "For Loop", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/ForLoop.json"},
           { "name" : "****EXPRESSIONS****", "url" : ""},
           { "name" : "Logical/Relational Expression", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/conditions.json"},
           { "name" : "Assignment Expression", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/assignmentexpression.json"},
