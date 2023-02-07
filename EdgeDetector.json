@@ -4,6 +4,6 @@
 	[
     		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] }
 	],
-	"moduleName" : "Counter UP Synchronous",
+	"moduleName" : "Edge Detector",
 	"moduleCode" : "--Edge detection module that can be used for when using the board buttons. \n--Includes rising and fallingdetection.\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\nentity <NAME> is\n    Port (<RESET> : in  STD_LOGIC;\n          <CLOCK> : in  STD_LOGIC;\n          <INPUT> : in  STD_LOGIC;\n          Rising_out : out  STD_LOGIC;\n          Falling_out : out  STD_LOGIC);\nend <NAME>;\narchitecture Behavioral of <NAME> is\n    signal Q, Q_previous: std_logic;\nbegin\nprocess(<CLOCK>, <RESET>)\nbegin\n    if <RESET>='1' then\n        Q <='0';\n        Q_previous <='0';\n    elsif <EDGE_TYPE>(<CLOCK>) then\n        Q_previous <= Q;\n        Q <= <INPUT>;\n    end if;\nend process;\nFalling_out <= '1' when Q_previous='1' and Q='0' else '0';\nRising_out <= '1' when Q_previous='0' and Q='1' else '0';\nend Behavioral;"
 }
