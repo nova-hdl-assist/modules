@@ -71,6 +71,7 @@
           { "name" : "Timer", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/timer.json"},
           { "name" : "Debounce Buttons", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/debounceButton.json"},
           { "name" : "Pulse Width Modulation", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/pwmDirect.json"},
+          { "name" : "Edge Detector", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/EdgeDetector.json"},
           { "name" : "****CONSTRAINTS FILE****", "url" : ""},
           { "name" : "UCF File", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/ucffile.json"},
           { "name" : "Basys2 UCF Template", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/Basys2UCFTemplate.json"},
