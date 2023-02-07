@@ -51,6 +51,7 @@
           { "name" : "Encoder", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/encoder.json"},
           { "name" : "Decoder", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/decoder.json"},
           { "name" : "7 Segments 1 Digit Decoder", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/7segments1digitdecoder.json"},
+          { "name" : "7 Segments 4 Digit Decoder", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/7segments4digitdecoder.json"},
           { "name" : "****COUNTERS (MODULES)****", "url" : ""},
           { "name" : "Up Counter", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/counterUp.json" },
           { "name" : "Down Counter", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/counterDown.json" },
