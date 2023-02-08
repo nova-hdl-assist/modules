@@ -1,7 +1,6 @@
 {
   "content_list" : [    
           { "name" : "****MAIN MODULE****", "url" : ""},
-          { "name" : "test", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/test.json"},  
           { "name" : "Empty VHDL Module", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/vhdlmodule.json"},
           { "name" : "****DECLARATIONS****", "url" : ""},
           { "name" : "Port Declaration", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/port.json"},
