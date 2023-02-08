@@ -79,7 +79,6 @@
           { "name" : "Edge Detector", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/EdgeDetector.json"},
           { "name" : "****CONSTRAINTS FILE****", "url" : ""},
           { "name" : "UCF File", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/ucffile.json"},
-          { "name" : "Basys2 UCF Template", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/Basys2UCFTemplate.json"},
           { "name" : "Nexys4 UCF Template", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/Nexys4UCFTemplate.json"},
           { "name" : "XDC File", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/xdcfile.json"}                
    ]
