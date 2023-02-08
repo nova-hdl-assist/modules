@@ -31,6 +31,7 @@
           { "name" : "Data Type Converter", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/datatypeconverter.json"},
           { "name" : "Decimal to Binary Converter", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/decimaltobinaryconverter.json"}, 
           { "name" : "Binary to BDC Converter", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/BinaryToBCD.json"}, 
+          { "name" : "Binary to Gray Converter", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/binary_to_gray_converter.json"}, 
           { "name" : "****OTHER CONVERTERS****", "url" : ""},
           { "name" : "Number Converter", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/numberconverter.json"},  
           { "name" : "Convert Integer to Signed", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/convertintegertosigned.json"},
