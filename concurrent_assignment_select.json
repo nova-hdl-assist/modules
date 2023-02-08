@@ -1,0 +1,7 @@
+{
+    "inputtext": [],
+    "selects": [],
+    "autogenerate": "",
+    "moduleName": "Concurrent Assignment Select",
+    "moduleCode": "-- Concurrent Signal Assignment: Select\n-- Concurrent Signal Assgnments are done outside of process blocks\n\n-- Generic Syntax\nwith <SIGNAL_SELECT> select\n\t<SIGNAL_TARGET> <= <VALUE1> when <SIGNAL_SELECT_VALUE1>,\n\t\t\t<= <VALUE2> when <SIGNAL_SELECT_VALUE2>;\n\n\n\n-- Specific example usage of select, used in 4:1 multiplexer module\nwith SELECTION select\n\tMUX_OUT <= D3 when \"11\",\n\t\t   D2 when \"10\",\n\t\t   D1 when \"01\",\n\t\t   D0 when \"00\",\n\t\t   '0' when others;\n"
+}
