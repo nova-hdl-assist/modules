@@ -20,6 +20,7 @@
           { "name" : "****ARITHMETIC****", "url" : ""},
           { "name" : "Arithmetic Operation", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/operations.json"},
           { "name" : "1-Bit Half Adder Module", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/1-bithalfadder.json"},
+          { "name" : "1-Bit Half Adder Module (simplified)", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/1-bithalfadder_Marcelo.json"},
           { "name" : "1-Bit Full Adder Module", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/1-bitfulladder.json"},
           { "name" : "1-Bit Full Adder Module (simplified)", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/1-bitfulladder_Marcelo.json"},
           { "name" : "N-Bit Adder Module", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/n-bitadder.json"},
