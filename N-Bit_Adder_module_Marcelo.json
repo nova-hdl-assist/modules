@@ -1,0 +1,13 @@
+{
+    "inputtext": [
+        "<INPUT_BIT1>",
+        "<INPUT_BIT2>",
+        "<NUMBER_OF_BITS>",
+        "<SUM_BIT>",
+        "<CARRY_BIT>"
+    ],
+    "selects": [],
+    "autogenerate": "",
+    "moduleName": "N-Bit Adder (Simplified)",
+    "moduleCode": "-- VHDL Configuration\n-- N-Bit adder\n-- By: Marcelo Machado\n\n-- Requires 1-Bit Half Adder (simplified) and 1-Bit Full Adder (simplified)\n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity adderNBit is\nport(\n\t<INPUT_BIT1>, <INPUT_BIT2> : in std_logic_vector(<NUMBER_OF_BITS> - 1 downto 0);\n\t<SUM_BIT> : out std_logic_vector(<NUMBER_OF_BITS> - 1 downto 0);\n\t<CARRY_BIT> : out std_logic\n\t);\nend adderNBit;\n\narchitecture Behavioral of adderNBit is\n\ncomponent full_adder is\nport(\n\tin_1, in_2, c_in : in std_logic;\n\ts_out, c_out : out std_logic\n);\nend component;\n\ncomponent half_adder is\nport (\n\tin_1, in_2 : in std_logic;\n\tsum, carry : out std_logic\n);\nend component;\n\nsignal s_out_signal : std_logic_vector(<NUMBER_OF_BITS> - 1 downto 0);\nsignal c_out_signal : std_logic_vector(<NUMBER_OF_BITS> - 1 downto 0);\n\nbegin\nha : half_adder port map(<INPUT_BIT1>(0), <INPUT_BIT2>(0), s_out_signal(0), c_out_signal(0));\n\nadder: for index in 1 to in_1'LENGTH - 1 generate\n\tfa : full_adder port map(<INPUT_BIT1>(index), <INPUT_BIT2>(index), c_out_signal(index - 1), s_out_signal(index), c_out_signal(index));\nend generate adder;\n\ns_out <= s_out_signal;\nc_out <= c_out_signal(<INPUT_BIT1>'LENGTH - 1);\nend Behavioral;\n\n"
+}
