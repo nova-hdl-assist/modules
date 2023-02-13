@@ -3,5 +3,5 @@
     "selects": [],
     "autogenerate": "",
     "moduleName": "While Loop",
-    "moduleCode": "-- VHDL Configuration\n-- Generic While Loop\n\n-- The code inside a while loop is executed until a condition is no longer met.\n-- While loops can only be used inside process statements\n\nwhile_loop_proc: process\nbegin\n\twhile_loop: while (condition1) loop\n\t-- exit when (condition2); -- optional\n\t-- ToDo\n\tend loop while_loop;\nend process while_loop_proc;"
+    "moduleCode": "-- VHDL Configuration\n-- Generic While Loop\n-- By: Marcelo Machado\n\n-- The code inside a while loop is executed until a condition is no longer met.\n-- While loops can only be used inside process statements\n\nwhile_loop_proc: process\nbegin\n\twhile_loop: while (condition1) loop\n\t-- exit when (condition2); -- optional\n\t-- ToDo\n\tend loop while_loop;\nend process while_loop_proc;"
 }
