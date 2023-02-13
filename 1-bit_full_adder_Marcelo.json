@@ -1,0 +1,14 @@
+{
+    "inputtext": [
+        "<NAME>",
+        "<INPUT_BIT1>",
+        "<INPUT_BIT2>",
+        "<SUM_BIT>",
+        "<CARRY_BIT>",
+        "<INPUT_CARRY_BIT>"
+    ],
+    "selects": [],
+    "autogenerate": "",
+    "moduleName": "1-Bit Full Adder (simplified)",
+    "moduleCode": "-- VHDL Configurator\n-- 1-Bit Full Adder\n-- By: Marcelo Machado\n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\nport(\n\t<INPUT_BIT1>, <INPUT_BIT2>, <INPUT_CARRY_BIT> : in std_logic;\n\t<SUM_BIT>, <CARRY_BIT> : out std_logic\n);\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\tsignal xor12, carry12 : std_logic;\nbegin\n\txor12 <= <INPUT_BIT1> XOR <INPUT_BIT2>;\n\tcarry12 <= <INPUT_BIT1> AND <INPUT_BIT2>;\n\t<SUM_BIT> <= xor12 XOR c_in;\n\t<CARRY_BIT> <= carry12 OR (<INPUT_CARRY_BIT> AND xor12);\nend Behavioral;\n\n"
+}
