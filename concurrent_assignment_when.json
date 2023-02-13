@@ -3,5 +3,5 @@
     "selects": [],
     "autogenerate": "",
     "moduleName": "Concurrent Assignment When",
-    "moduleCode": "-- VHDL Configuration\n-- Concurrent Signal Assignment: When\n-- Concurrent Signal Assgnments are done outside of process blocks\n\n-- Generic Syntax\n<SIGNAL_NAME1> <= <VALUE1> when <CONDITION1> else\n\t\t       <VALUE2> when <CONDITION2> else\n\t\t       <VALUE3>;\n\n-- Specific example usage of when\nvalue <= \"110\" when count = 0 else\n     \"000\" when count = 1 else\n     \"110\" when count = 2 else\n     \"100\" when count = 3 else\n     \"010\" when count = 4 else\n     \"110\";"
+    "moduleCode": "-- VHDL Configuration\n-- Concurrent Signal Assignment: When\n-- By: Marcelo Machado\n\n-- Concurrent Signal Assgnments are done outside of process blocks\n\n-- Generic Syntax\nSIGNAL_NAME1 <= VALUE1 when CONDITION1 else\n\t\t      VALUE2 when CONDITION2 else\n\t\t      VALUE3;\n\n\n-- Specific example usage of when\nvalue <= \"110\" when count = 0 else\n         \"000\" when count = 1 else\n         \"110\" when count = 2 else\n         \"100\" when count = 3 else\n         \"010\" when count = 4 else\n         \"110\";"
 }
