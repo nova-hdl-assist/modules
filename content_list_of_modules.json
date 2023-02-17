@@ -89,6 +89,7 @@
           { "name" : "XDC File", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/xdcfile.json"},
           { "name" : "****GENERIC MODULES****", "url" : ""},
           { "name" : "Generic Counter", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/GenericCounter.json"},
-          { "name" : "Generic Register", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/GenericRegister.json"}
+          { "name" : "Generic Register", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/GenericRegister.json"},
+          { "name" : "Generic UART Receiver", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/GenericUARTReceiver.json"}
    ]
  }
