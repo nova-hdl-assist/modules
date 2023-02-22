@@ -1,0 +1,13 @@
+{
+    "inputtext": [
+        "<NAME>",
+        "<CLOCK>",
+        "<RESET>",
+        "<OUTPUT1>",
+        "<OUTPUT2>"
+    ],
+    "selects": [],
+    "autogenerate": "",
+    "moduleName": "PS/2 Keyboard Interface",
+    "moduleCode": "-- PS/2 Keyboard Interface\n-- By: Marcelo Machado\n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\n-- This VHDL module is used to interface a PS/2 Keyboard with an FPGA\n\n-- INPUT PORTS ------------------------------------------------------\n-- PS2C - input clock coming from the keyboard\n-- PS2D - data signal coming from the keyboard\n-- clk - FPGA clock\n-- clr_data - used to reset the state machine and value of key_press\n\n-- OUTPUT PORTS -----------------------------------------------------\n-- <OUTPUT1> - returns '1' if a key is being pressed, '0' otherwise | originally called \"key_press\n-- <OUTPUT2> - returns a code for the last key pressed on the keyboard (NOT ASCII CODE! check ps/2 key codes)\n\n\nentity <NAME> is\nport(\n\tPS2C, PS2D : in std_logic;\n\t<CLOCK> : in std_logic;\n\t<RESET> : in std_logic;\n\t<OUTPUT1> : out std_logic;\n\t<OUTPUT2> : out std_logic_vector(7 downto 0)\n);\nend <NAME>;\n\narchitecture Behavioral of <NAME> is\n\ttype state is (k_idle, k_receiving, k_end_bit);\n\tsignal currentState, nextState : state;\n\t\n\t\n\tsignal reg_tmp : std_logic_vector(7 downto 0) := (others => '0'); \n\tsignal data_out_int : std_logic_vector(7 downto 0) := (others => '0');\n\tsignal bit_index : integer;\n\tsignal key_press_int : std_logic := '0';\n\t\nbegin\n\tsync_proc: process(<CLOCK>)\n\tbegin \n\t\tif (rising_edge(<CLOCK>)) then\n\t\t\tcurrentState <= nextState;\n\t\tend if;\n\tend process;\n\t\n\tcomb_proc: process(PS2C, <RESET>)\n\tbegin\n\t\tif(<RESET> = '1') then \n\t\t\tdata_out_int <= (others => '0');\n\t\telsif (falling_edge(PS2C)) then\n\t\t\tcase currentState is\n\t\t\t\twhen k_idle => \n\t\t\t\t\t\tkey_press_int <= '1'; \n\t\t\t\t\t\tbit_index <= 0; \n\t\t\t\t\t\tnextState <= k_receiving; \n\t\t\t\t\n\t\t\t\twhen k_receiving => \n\t\t\t\t\t\tif(bit_index = 8) then \n\t\t\t\t\t\t\tnextState <= k_end_bit;\n\t\t\t\t\t\telse\n\t\t\t\t\t\t\treg_tmp(bit_index) <= PS2D;\n\t\t\t\t\t\t\tbit_index <= bit_index + 1;\n\t\t\t\t\t\t\tnextState <= k_receiving;\n\t\t\t\t\t\tend if;\n\t\t\t\t\t\t\n\t\t\t\twhen k_end_bit =>\n\t\t\t\t\t\tkey_press_int <= '0';\n\t\t\t\t\t\tbit_index <= 0;\n\t\t\t\t\t\tdata_out_int <= reg_tmp;\n\t\t\t\t\t\treg_tmp <= (others => '0');\n\t\t\t\t\t\tnextState <= k_idle;\n\t\t\t\t\n\t\t\t\twhen others => \n\t\t\t\t\tnextState <= k_idle;\n\t\t\t\t\t\n\t\t\tend case;\n\t\tend if;\n\tend process;\n\t<OUTPUT2> <= data_out_int;\n\t<OUTPUT1> <= key_press_int;\n\t\nend Behavioral;\n"
+}
