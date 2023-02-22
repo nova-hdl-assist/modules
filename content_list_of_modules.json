@@ -83,6 +83,7 @@
           { "name" : "Debounce Buttons", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/debounceButton.json"},
           { "name" : "Pulse Width Modulation", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/pwmDirect.json"},
           { "name" : "Edge Detector", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/EdgeDetector.json"},
+          { "name" : "PS/2 Keyboard Interface", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/keyboard_module_marcelo.json"},
           { "name" : "****CONSTRAINTS FILE****", "url" : ""},
           { "name" : "UCF File", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/ucffile.json"},
           { "name" : "Nexys4 UCF Template", "url" : "https://raw.githubusercontent.com/nova-hdl-assist/modules/main/Nexys4UCFTemplate.json"},
