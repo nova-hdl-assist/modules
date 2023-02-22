@@ -2,7 +2,7 @@
 	  "inputtext" : ["<NAME>", "<NUMBER_OF_BITS>", "<RESET>", "<CLOCK>", "<RXD>", "<OUTPUT>", "<FINISH_FLAG>"],
 	"selects" : 
 	[
-		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] }
+		{ "name" : "<EDGE_TYPE>", "options" : [ "rising_edge", "falling_edge"] },
 		{ "name" : "<PARITY>", "options" : [ "rising_edge", "falling_edge"] }
 	],
 	  "moduleName" : "Generic UART Receiver",
