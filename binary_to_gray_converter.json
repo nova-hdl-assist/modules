@@ -6,5 +6,5 @@
         "<OUTPUT>"
     ],
     "moduleName": "Binary to Gray Converter",
-    "moduleCode": "-- This code converts a N-bit binary number into its reflected binary code form (RBC aka Gray Code)\n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n    Port ( <INPUT1> : in  STD_LOGIC_VECTOR (<NUMBER_OF_BITS> downto 0);\n           <OUTPUT> : out  STD_LOGIC_VECTOR ((<NUMBER_OF_BITS> downto 0));\nend <NAME>\n\narchitecture Behavioral of <NAME> is\n\nbegin\n\tprocess(<INPUT1>)\n\tbegin\n\t\tfor i in 0 to (<NUMBER_OF_BITS>-1) loop\n\t\t\t<OUTPUT>(i)<= <INPUT1>(i) xor <INPUT1>(i+1);\n\t\tend loop;\n\t\t<OUTPUT>(3)<= <INPUT1>(<NUMBER_OF_BITS>);\t\n\tend process;\nend Behavioral;"
+    "moduleCode": "-- This code converts a N-bit binary number into its reflected binary code form (RBC aka Gray Code)\n--Made by Carmen Rodríguez Villaverde\n\nlibrary IEEE;\nuse IEEE.STD_LOGIC_1164.ALL;\n\nentity <NAME> is\n    Port ( <INPUT1> : in  STD_LOGIC_VECTOR (<NUMBER_OF_BITS> downto 0);\n           <OUTPUT> : out  STD_LOGIC_VECTOR ((<NUMBER_OF_BITS> downto 0));\nend <NAME>\n\narchitecture Behavioral of <NAME> is\n\nbegin\n\tprocess(<INPUT1>)\n\tbegin\n\t\tfor i in 0 to (<NUMBER_OF_BITS>-1) loop\n\t\t\t<OUTPUT>(i)<= <INPUT1>(i) xor <INPUT1>(i+1);\n\t\tend loop;\n\t\t<OUTPUT>(3)<= <INPUT1>(<NUMBER_OF_BITS>);\t\n\tend process;\nend Behavioral;"
 }
