@@ -1,11 +1,11 @@
 {
-	"inputtext" : ["<NET_NAME>", "<NUMBER_OF_BITS>"],
+	"inputtext" : ["<NET_NAME>", "<PACKAGE_PIN>", "<NUMBER_OF_BITS>"],
 	"selects" : 
 	[
     		{ "IOSTANDARD" : [ "LVCMOS33", "LVCMOS25", "LVCMOS18", "LVCMOS15", "LVCMOS12", "LVTTL", "SSTL15", "SSTL18", "HSTL", "DIFF_SSTL15", "DIFF_HSTL_I"] }
 	],
 	"buttons" : ["Add"],
-	"autogenerate" : "NET \"<NET_NAME>\" LOC = \"LOCNAME\" | IOSTANDARD = \"<IOSTANDARD>\";",
+	"autogenerate" : "set_property -dict { PACKAGE_PIN \"<PACKAGE_PIN>\" IOSTANDARD = \"<IOSTANDARD>\" } [get_ports { \"<NET_NAME>\" }];",
 	"moduleName" : "XDC File",
 	"moduleCode" : "-- VHDL Configurator \n-- XDC File\n\n<AUTO_GENERATE>"
 }
