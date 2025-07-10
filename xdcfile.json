@@ -1,7 +1,7 @@
 {
-	"inputtext" : ["<NET_NAME>", "<NUMBER_OF_BITS>"],
+	"inputtext" : ["<NET_NAME>", "<NUMBER_OF_BITS>","<IOSTANDARD>"],
 	"buttons" : ["Add"],
-	"autogenerate" : "NET \"<NET_NAME>\" LOC = \"LOCNAME\" | IOSTANDARD = LVTTL;",
+	"autogenerate" : "NET \"<NET_NAME>\" LOC = \"LOCNAME\" | IOSTANDARD = \"<IOSTANDARD>\";",
 	"moduleName" : "XDC File",
 	"moduleCode" : "-- VHDL Configurator \n-- XDC File\n\n<AUTO_GENERATE>"
 }
