@@ -1,5 +1,9 @@
 {
 	"inputtext" : ["<NET_NAME>", "<NUMBER_OF_BITS>","<IOSTANDARD>"],
+	"selects" : 
+	[
+    		{ "IOSTANDARD" : [ "LVCMOS33", "LVCMOS25", "LVCMOS18", "LVCMOS15", "LVCMOS12", "LVTTL", "SSTL15", "SSTL18", "HSTL", "DIFF_SSTL15", "DIFF_HSTL_I"] }
+	],
 	"buttons" : ["Add"],
 	"autogenerate" : "NET \"<NET_NAME>\" LOC = \"LOCNAME\" | IOSTANDARD = \"<IOSTANDARD>\";",
 	"moduleName" : "XDC File",
