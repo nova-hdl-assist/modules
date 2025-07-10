@@ -1,5 +1,5 @@
 {
-	"inputtext" : ["<NET_NAME>", "<NUMBER_OF_BITS>","<IOSTANDARD>"],
+	"inputtext" : ["<NET_NAME>", "<NUMBER_OF_BITS>"],
 	"selects" : 
 	[
     		{ "IOSTANDARD" : [ "LVCMOS33", "LVCMOS25", "LVCMOS18", "LVCMOS15", "LVCMOS12", "LVTTL", "SSTL15", "SSTL18", "HSTL", "DIFF_SSTL15", "DIFF_HSTL_I"] }
